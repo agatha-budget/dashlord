@@ -21,4 +21,8 @@ tools:
   declaration-a11y: true
   ecoindex: true
 urls:
-  - url: https://agatha-budget.fr
+  - url: https://mon.agatha-budget.fr
+    title: Agatha-Budget App
+    repositories:
+      - agatha-budget/back
+      - agatha-budget/front-web
