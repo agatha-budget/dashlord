@@ -79,7 +79,7 @@
 "intermediate_cert_badOCSP","mon.agatha-budget.fr/185.212.47.46","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","mon.agatha-budget.fr/185.212.47.46","443","INFO","200 OK ('/')","",""
 "HTTP_clock_skew","mon.agatha-budget.fr/185.212.47.46","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","mon.agatha-budget.fr/185.212.47.46","443","INFO","1697548289","",""
+"HTTP_headerTime","mon.agatha-budget.fr/185.212.47.46","443","INFO","1697549812","",""
 "HSTS","mon.agatha-budget.fr/185.212.47.46","443","LOW","not offered","",""
 "HPKP","mon.agatha-budget.fr/185.212.47.46","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","mon.agatha-budget.fr/185.212.47.46","443","INFO","nginx","",""

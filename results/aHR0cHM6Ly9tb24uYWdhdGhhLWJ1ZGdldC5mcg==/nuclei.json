@@ -23,48 +23,9 @@
       "host": "https://mon.agatha-budget.fr",
       "matched-at": "https://mon.agatha-budget.fr",
       "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:28 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:17 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
       "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:29.04658309Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-embedder-policy",
-      "type": "http",
-      "host": "https://mon.agatha-budget.fr",
-      "matched-at": "https://mon.agatha-budget.fr",
-      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
-      "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.376836082Z",
+      "timestamp": "2023-10-17T13:38:17.76525795Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
       "matcher-status": true
     },
@@ -101,48 +62,9 @@
       "host": "https://mon.agatha-budget.fr",
       "matched-at": "https://mon.agatha-budget.fr",
       "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
       "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.376886782Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "cross-origin-resource-policy",
-      "type": "http",
-      "host": "https://mon.agatha-budget.fr",
-      "matched-at": "https://mon.agatha-budget.fr",
-      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
-      "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.376899482Z",
+      "timestamp": "2023-10-17T13:38:36.218051104Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
       "matcher-status": true
     },
@@ -179,243 +101,9 @@
       "host": "https://mon.agatha-budget.fr",
       "matched-at": "https://mon.agatha-budget.fr",
       "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
       "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.376910283Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "x-content-type-options",
-      "type": "http",
-      "host": "https://mon.agatha-budget.fr",
-      "matched-at": "https://mon.agatha-budget.fr",
-      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
-      "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.376921683Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "x-permitted-cross-domain-policies",
-      "type": "http",
-      "host": "https://mon.agatha-budget.fr",
-      "matched-at": "https://mon.agatha-budget.fr",
-      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
-      "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.376931783Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "referrer-policy",
-      "type": "http",
-      "host": "https://mon.agatha-budget.fr",
-      "matched-at": "https://mon.agatha-budget.fr",
-      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
-      "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.376941583Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "clear-site-data",
-      "type": "http",
-      "host": "https://mon.agatha-budget.fr",
-      "matched-at": "https://mon.agatha-budget.fr",
-      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
-      "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.376951083Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "strict-transport-security",
-      "type": "http",
-      "host": "https://mon.agatha-budget.fr",
-      "matched-at": "https://mon.agatha-budget.fr",
-      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
-      "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.376963183Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "content-security-policy",
-      "type": "http",
-      "host": "https://mon.agatha-budget.fr",
-      "matched-at": "https://mon.agatha-budget.fr",
-      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
-      "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.376973483Z",
+      "timestamp": "2023-10-17T13:38:36.218114605Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
       "matcher-status": true
     },
@@ -452,9 +140,321 @@
       "host": "https://mon.agatha-budget.fr",
       "matched-at": "https://mon.agatha-budget.fr",
       "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
       "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.376982883Z",
+      "timestamp": "2023-10-17T13:38:36.218721114Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "x-content-type-options",
+      "type": "http",
+      "host": "https://mon.agatha-budget.fr",
+      "matched-at": "https://mon.agatha-budget.fr",
+      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "ip": "185.212.47.46",
+      "timestamp": "2023-10-17T13:38:36.218831816Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "x-permitted-cross-domain-policies",
+      "type": "http",
+      "host": "https://mon.agatha-budget.fr",
+      "matched-at": "https://mon.agatha-budget.fr",
+      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "ip": "185.212.47.46",
+      "timestamp": "2023-10-17T13:38:36.218912117Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "referrer-policy",
+      "type": "http",
+      "host": "https://mon.agatha-budget.fr",
+      "matched-at": "https://mon.agatha-budget.fr",
+      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "ip": "185.212.47.46",
+      "timestamp": "2023-10-17T13:38:36.218925417Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "clear-site-data",
+      "type": "http",
+      "host": "https://mon.agatha-budget.fr",
+      "matched-at": "https://mon.agatha-budget.fr",
+      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "ip": "185.212.47.46",
+      "timestamp": "2023-10-17T13:38:36.218936217Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "strict-transport-security",
+      "type": "http",
+      "host": "https://mon.agatha-budget.fr",
+      "matched-at": "https://mon.agatha-budget.fr",
+      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "ip": "185.212.47.46",
+      "timestamp": "2023-10-17T13:38:36.218946517Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "content-security-policy",
+      "type": "http",
+      "host": "https://mon.agatha-budget.fr",
+      "matched-at": "https://mon.agatha-budget.fr",
+      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "ip": "185.212.47.46",
+      "timestamp": "2023-10-17T13:38:36.218977318Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-embedder-policy",
+      "type": "http",
+      "host": "https://mon.agatha-budget.fr",
+      "matched-at": "https://mon.agatha-budget.fr",
+      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "ip": "185.212.47.46",
+      "timestamp": "2023-10-17T13:38:36.218993218Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "cross-origin-resource-policy",
+      "type": "http",
+      "host": "https://mon.agatha-budget.fr",
+      "matched-at": "https://mon.agatha-budget.fr",
+      "request": "GET / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 1974\r\nAccept-Ranges: bytes\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-7b6\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\n<!DOCTYPE html><html lang=\"\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]--><link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css\"><link rel=\"stylesheet\" href=\"./assets/iconFolders/css/simple-line-icons.css\"><title>Mon Agatha Budget</title><link href=\"/css/about.0ae2bd0c.css\" rel=\"prefetch\"><link href=\"/js/about.368f9c17.js\" rel=\"prefetch\"><link href=\"/css/app.c8e124f8.css\" rel=\"preload\" as=\"style\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"preload\" as=\"style\"><link href=\"/js/app.8b1f0894.js\" rel=\"preload\" as=\"script\"><link href=\"/js/chunk-vendors.5e7f8912.js\" rel=\"preload\" as=\"script\"><link href=\"/css/chunk-vendors.f3e82d0b.css\" rel=\"stylesheet\"><link href=\"/css/app.c8e124f8.css\" rel=\"stylesheet\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"agatha-budget\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head><body><noscript><strong>We're sorry but agatha-budget doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=\"app\"></div><script src=\"/js/chunk-vendors.5e7f8912.js\"></script><script src=\"/js/app.8b1f0894.js\"></script></body></html>",
+      "ip": "185.212.47.46",
+      "timestamp": "2023-10-17T13:38:36.219004318Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
       "matcher-status": true
     },
@@ -482,9 +482,9 @@
       "host": "https://mon.agatha-budget.fr",
       "matched-at": "https://mon.agatha-budget.fr/robots.txt",
       "request": "GET /robots.txt HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 24\r\nAccept-Ranges: bytes\r\nContent-Type: text/plain\r\nDate: Tue, 17 Oct 2023 13:13:57 GMT\r\nEtag: \"63f8e03a-18\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\nUser-agent: *\nDisallow:\n",
+      "response": "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Length: 24\r\nAccept-Ranges: bytes\r\nContent-Type: text/plain\r\nDate: Tue, 17 Oct 2023 13:38:36 GMT\r\nEtag: \"63f8e03a-18\"\r\nLast-Modified: Fri, 24 Feb 2023 16:05:14 GMT\r\nServer: nginx\r\n\r\nUser-agent: *\nDisallow:\n",
       "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:13:57.457843838Z",
+      "timestamp": "2023-10-17T13:38:36.379633009Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr/robots.txt'",
       "matcher-status": true
     },
@@ -524,9 +524,9 @@
       "host": "https://mon.agatha-budget.fr",
       "matched-at": "https://mon.agatha-budget.fr/",
       "request": "POST / HTTP/1.1\r\nHost: mon.agatha-budget.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nContent-Length: 27\r\nContent-Type: application/x-www-form-urlencoded\r\nAccept-Encoding: gzip\r\n\r\n_=<script>alert(1)</script>",
-      "response": "HTTP/1.1 405 Not Allowed\r\nConnection: close\r\nContent-Length: 150\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:14:16 GMT\r\nServer: nginx\r\n\r\n<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "response": "HTTP/1.1 405 Not Allowed\r\nConnection: close\r\nContent-Length: 150\r\nContent-Type: text/html\r\nDate: Tue, 17 Oct 2023 13:38:48 GMT\r\nServer: nginx\r\n\r\n<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
       "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:14:16.495225215Z",
+      "timestamp": "2023-10-17T13:38:48.17444672Z",
       "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: mon.agatha-budget.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr/'",
       "matcher-status": true
     },
@@ -577,7 +577,7 @@
       ],
       "response": "SSH-2.0-OpenSSH_9.1\r\n",
       "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:15:13.943709692Z",
+      "timestamp": "2023-10-17T13:39:26.910629209Z",
       "matcher-status": true
     },
     {
@@ -606,7 +606,7 @@
         "Let's Encrypt"
       ],
       "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:15:44.840230467Z",
+      "timestamp": "2023-10-17T13:40:07.001157881Z",
       "matcher-status": true
     },
     {
@@ -635,7 +635,7 @@
         "mon.agatha-budget.fr"
       ],
       "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:15:44.840344068Z",
+      "timestamp": "2023-10-17T13:40:07.001288783Z",
       "matcher-status": true
     },
     {
@@ -665,7 +665,7 @@
         "tls12"
       ],
       "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:15:47.04599614Z",
+      "timestamp": "2023-10-17T13:40:08.423820753Z",
       "matcher-status": true
     },
     {
@@ -695,7 +695,7 @@
         "tls13"
       ],
       "ip": "185.212.47.46",
-      "timestamp": "2023-10-17T13:15:47.463124291Z",
+      "timestamp": "2023-10-17T13:40:08.611121913Z",
       "matcher-status": true
     }
   ]
