@@ -22,7 +22,7 @@ tools:
   ecoindex: true
 urls:
   - url: https://mon.agatha-budget.fr
-    title: Agatha-Budget App
+    title: Agatha-Budget Application
     repositories:
       - agatha-budget/back
       - agatha-budget/front-web
