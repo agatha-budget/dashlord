@@ -10,7 +10,7 @@
     "http": {
       "url": "https://mon.agatha-budget.fr",
       "algorithm_version": 2,
-      "end_time": "Mon, 16 Oct 2023 12:33:07 GMT",
+      "end_time": "Tue, 17 Oct 2023 13:10:11 GMT",
       "grade": "F",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -19,14 +19,14 @@
         "Connection": "keep-alive",
         "Content-Length": "1974",
         "Content-Type": "text/html",
-        "Date": "Mon, 16 Oct 2023 12:33:06 GMT",
+        "Date": "Tue, 17 Oct 2023 13:10:10 GMT",
         "ETag": "\"63f8e03a-7b6\"",
         "Last-Modified": "Fri, 24 Feb 2023 16:05:14 GMT",
         "Server": "nginx"
       },
-      "scan_id": 43325743,
+      "scan_id": 43356015,
       "score": 20,
-      "start_time": "Mon, 16 Oct 2023 12:33:03 GMT",
+      "start_time": "Tue, 17 Oct 2023 13:10:07 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 5,
@@ -210,15 +210,15 @@
       "recipients": [
         "email:4130816836"
       ],
-      "last_check_at": "2023-10-17T07:16:52Z",
-      "next_check_at": "2023-10-17T08:16:25Z",
+      "last_check_at": "2023-10-17T13:14:44Z",
+      "next_check_at": "2023-10-17T14:14:09Z",
       "mute_until": null,
       "favicon_url": "https://mon.agatha-budget.fr/img/icons/favicon-16x16.png",
       "custom_headers": {},
       "http_verb": "GET/HEAD",
       "http_body": "",
       "ssl": {
-        "tested_at": "2023-10-16T22:19:25Z",
+        "tested_at": "2023-10-17T08:16:28Z",
         "expires_at": "2023-11-25T00:48:33Z",
         "valid": true,
         "error": null
@@ -227,18 +227,85 @@
         "apdex": 1,
         "timings": {
           "redirect": 0,
-          "namelookup": 374,
-          "connection": 182,
-          "handshake": 190,
-          "response": 190,
-          "total": 936
+          "namelookup": 322,
+          "connection": 162,
+          "handshake": 168,
+          "response": 167,
+          "total": 819
         }
       },
       "uptimeGrade": "A",
       "apdexGrade": "A"
     },
     "nmap": null,
-    "dependabot": null,
+    "dependabot": {
+      "totalCount": 1,
+      "grade": "E",
+      "repositories": [
+        {
+          "url": "https://github.com/agatha-budget/back",
+          "vulnerabilityAlerts": {
+            "totalCount": 0,
+            "nodes": []
+          },
+          "grade": "A"
+        },
+        {
+          "url": "https://github.com/agatha-budget/front-web",
+          "vulnerabilityAlerts": {
+            "totalCount": 1,
+            "nodes": [
+              {
+                "dismissedAt": null,
+                "createdAt": "2023-10-17T02:34:08Z",
+                "securityVulnerability": {
+                  "severity": "CRITICAL",
+                  "package": {
+                    "name": "@babel/traverse"
+                  },
+                  "advisory": {
+                    "identifiers": [
+                      {
+                        "type": "GHSA",
+                        "value": "GHSA-67hx-6x53-jw92"
+                      },
+                      {
+                        "type": "CVE",
+                        "value": "CVE-2023-45133"
+                      }
+                    ],
+                    "references": [
+                      {
+                        "url": "https://github.com/babel/babel/security/advisories/GHSA-67hx-6x53-jw92"
+                      },
+                      {
+                        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-45133"
+                      },
+                      {
+                        "url": "https://github.com/babel/babel/pull/16033"
+                      },
+                      {
+                        "url": "https://github.com/babel/babel/commit/b13376b346946e3f62fc0848c1d2a23223314c82"
+                      },
+                      {
+                        "url": "https://github.com/babel/babel/releases/tag/v7.23.2"
+                      },
+                      {
+                        "url": "https://github.com/babel/babel/releases/tag/v8.0.0-alpha.4"
+                      },
+                      {
+                        "url": "https://github.com/advisories/GHSA-67hx-6x53-jw92"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "grade": "E"
+        }
+      ]
+    },
     "codescan": null,
     "testssl": [
       {
@@ -812,7 +879,7 @@
         "ip": "mon.agatha-budget.fr/185.212.47.46",
         "port": "443",
         "severity": "INFO",
-        "finding": "1697528354"
+        "finding": "1697548289"
       },
       {
         "id": "HSTS",
@@ -1368,7 +1435,7 @@
         "ip": "mon.agatha-budget.fr/185.212.47.46",
         "port": "443",
         "severity": "INFO",
-        "finding": "94"
+        "finding": "98"
       }
     ],
     "thirdparties": {
@@ -1403,7 +1470,7 @@
         "accept-ranges": "bytes",
         "content-length": "1974",
         "content-type": "text/html",
-        "date": "Tue, 17 Oct 2023 07:35:00 GMT",
+        "date": "Tue, 17 Oct 2023 13:06:46 GMT",
         "etag": "\"63f8e03a-7b6\"",
         "last-modified": "Fri, 24 Feb 2023 16:05:14 GMT",
         "server": "nginx"
@@ -1496,7 +1563,7 @@
         },
         {
           "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.25.14",
+          "ip": "104.17.24.14",
           "geoip": {
             "registered_country": {
               "geoname_id": 6252001,
@@ -1778,7 +1845,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.14.0",
-      "@generated": "Tue, 17 Oct 2023 07:37:48",
+      "@generated": "Tue, 17 Oct 2023 13:09:37",
       "site": [
         {
           "@name": "https://mon.agatha-budget.fr",
@@ -1919,81 +1986,7 @@
         "host": "https://mon.agatha-budget.fr",
         "matched-at": "https://mon.agatha-budget.fr",
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:40:51.78829628Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "permissions-policy",
-        "type": "http",
-        "host": "https://mon.agatha-budget.fr",
-        "matched-at": "https://mon.agatha-budget.fr",
-        "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.034468132Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "x-frame-options",
-        "type": "http",
-        "host": "https://mon.agatha-budget.fr",
-        "matched-at": "https://mon.agatha-budget.fr",
-        "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.034508532Z",
+        "timestamp": "2023-10-17T13:13:29.04658309Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
         "matcher-status": true
       },
@@ -2030,7 +2023,7 @@
         "host": "https://mon.agatha-budget.fr",
         "matched-at": "https://mon.agatha-budget.fr",
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.034521032Z",
+        "timestamp": "2023-10-17T13:13:57.376836082Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
         "matcher-status": true
       },
@@ -2067,44 +2060,7 @@
         "host": "https://mon.agatha-budget.fr",
         "matched-at": "https://mon.agatha-budget.fr",
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.034531832Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "clear-site-data",
-        "type": "http",
-        "host": "https://mon.agatha-budget.fr",
-        "matched-at": "https://mon.agatha-budget.fr",
-        "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.034543832Z",
+        "timestamp": "2023-10-17T13:13:57.376886782Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
         "matcher-status": true
       },
@@ -2141,7 +2097,7 @@
         "host": "https://mon.agatha-budget.fr",
         "matched-at": "https://mon.agatha-budget.fr",
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.034553432Z",
+        "timestamp": "2023-10-17T13:13:57.376899482Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
         "matcher-status": true
       },
@@ -2173,49 +2129,12 @@
             "max-request": 1
           }
         },
-        "matcher-name": "strict-transport-security",
+        "matcher-name": "permissions-policy",
         "type": "http",
         "host": "https://mon.agatha-budget.fr",
         "matched-at": "https://mon.agatha-budget.fr",
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.034562832Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "content-security-policy",
-        "type": "http",
-        "host": "https://mon.agatha-budget.fr",
-        "matched-at": "https://mon.agatha-budget.fr",
-        "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.034573332Z",
+        "timestamp": "2023-10-17T13:13:57.376910283Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
         "matcher-status": true
       },
@@ -2252,7 +2171,7 @@
         "host": "https://mon.agatha-budget.fr",
         "matched-at": "https://mon.agatha-budget.fr",
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.034584732Z",
+        "timestamp": "2023-10-17T13:13:57.376921683Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
         "matcher-status": true
       },
@@ -2289,7 +2208,7 @@
         "host": "https://mon.agatha-budget.fr",
         "matched-at": "https://mon.agatha-budget.fr",
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.034595132Z",
+        "timestamp": "2023-10-17T13:13:57.376931783Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
         "matcher-status": true
       },
@@ -2326,7 +2245,155 @@
         "host": "https://mon.agatha-budget.fr",
         "matched-at": "https://mon.agatha-budget.fr",
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.034604632Z",
+        "timestamp": "2023-10-17T13:13:57.376941583Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "clear-site-data",
+        "type": "http",
+        "host": "https://mon.agatha-budget.fr",
+        "matched-at": "https://mon.agatha-budget.fr",
+        "ip": "185.212.47.46",
+        "timestamp": "2023-10-17T13:13:57.376951083Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "strict-transport-security",
+        "type": "http",
+        "host": "https://mon.agatha-budget.fr",
+        "matched-at": "https://mon.agatha-budget.fr",
+        "ip": "185.212.47.46",
+        "timestamp": "2023-10-17T13:13:57.376963183Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "content-security-policy",
+        "type": "http",
+        "host": "https://mon.agatha-budget.fr",
+        "matched-at": "https://mon.agatha-budget.fr",
+        "ip": "185.212.47.46",
+        "timestamp": "2023-10-17T13:13:57.376973483Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-frame-options",
+        "type": "http",
+        "host": "https://mon.agatha-budget.fr",
+        "matched-at": "https://mon.agatha-budget.fr",
+        "ip": "185.212.47.46",
+        "timestamp": "2023-10-17T13:13:57.376982883Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr'",
         "matcher-status": true
       },
@@ -2354,7 +2421,7 @@
         "host": "https://mon.agatha-budget.fr",
         "matched-at": "https://mon.agatha-budget.fr/robots.txt",
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:16.131937978Z",
+        "timestamp": "2023-10-17T13:13:57.457843838Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr/robots.txt'",
         "matcher-status": true
       },
@@ -2394,7 +2461,7 @@
         "host": "https://mon.agatha-budget.fr",
         "matched-at": "https://mon.agatha-budget.fr/",
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:41:32.15063848Z",
+        "timestamp": "2023-10-17T13:14:16.495225215Z",
         "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: mon.agatha-budget.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://mon.agatha-budget.fr/'",
         "matcher-status": true
       },
@@ -2444,7 +2511,7 @@
           "SSH-2.0-OpenSSH_9.1"
         ],
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:42:16.088824204Z",
+        "timestamp": "2023-10-17T13:15:13.943709692Z",
         "matcher-status": true
       },
       {
@@ -2473,7 +2540,7 @@
           "Let's Encrypt"
         ],
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:42:56.231155013Z",
+        "timestamp": "2023-10-17T13:15:44.840230467Z",
         "matcher-status": true
       },
       {
@@ -2502,7 +2569,7 @@
           "mon.agatha-budget.fr"
         ],
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:42:56.231367413Z",
+        "timestamp": "2023-10-17T13:15:44.840344068Z",
         "matcher-status": true
       },
       {
@@ -2532,7 +2599,7 @@
           "tls12"
         ],
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:42:58.287315454Z",
+        "timestamp": "2023-10-17T13:15:47.04599614Z",
         "matcher-status": true
       },
       {
@@ -2562,7 +2629,7 @@
           "tls13"
         ],
         "ip": "185.212.47.46",
-        "timestamp": "2023-10-17T07:42:58.579020313Z",
+        "timestamp": "2023-10-17T13:15:47.463124291Z",
         "matcher-status": true
       }
     ],
@@ -2570,7 +2637,7 @@
       {
         "requestedUrl": "https://mon.agatha-budget.fr/",
         "finalUrl": "https://mon.agatha-budget.fr/",
-        "fetchTime": "2023-10-17T07:38:04.074Z",
+        "fetchTime": "2023-10-17T13:09:54.745Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2581,7 +2648,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.9735483169555664
+            "score": 0.9735485076904297
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2633,53 +2700,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 7382,
+            "numericValue": 7496,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 7163,
-                  "firstMeaningfulPaint": 7163,
-                  "largestContentfulPaint": 7964,
-                  "interactive": 7382,
-                  "speedIndex": 7163,
-                  "totalBlockingTime": 74,
-                  "maxPotentialFID": 141,
+                  "firstContentfulPaint": 7248,
+                  "firstMeaningfulPaint": 7248,
+                  "largestContentfulPaint": 8155,
+                  "interactive": 7496,
+                  "speedIndex": 7248,
+                  "totalBlockingTime": 67,
+                  "maxPotentialFID": 139,
                   "cumulativeLayoutShift": 0.03992729187011719,
                   "cumulativeLayoutShiftMainFrame": 0.03992729187011719,
                   "totalCumulativeLayoutShift": 0.03992729187011719,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 295640549,
+                  "observedTimeOriginTs": 326699256,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 295640549,
-                  "observedFirstPaint": 1290,
-                  "observedFirstPaintTs": 296930070,
-                  "observedFirstContentfulPaint": 1290,
-                  "observedFirstContentfulPaintTs": 296930070,
-                  "observedFirstContentfulPaintAllFrames": 1290,
-                  "observedFirstContentfulPaintAllFramesTs": 296930070,
-                  "observedFirstMeaningfulPaint": 1290,
-                  "observedFirstMeaningfulPaintTs": 296930070,
-                  "observedLargestContentfulPaint": 1436,
-                  "observedLargestContentfulPaintTs": 297076050,
-                  "observedLargestContentfulPaintAllFrames": 1436,
-                  "observedLargestContentfulPaintAllFramesTs": 297076050,
-                  "observedTraceEnd": 4302,
-                  "observedTraceEndTs": 299942951,
-                  "observedLoad": 1401,
-                  "observedLoadTs": 297041462,
-                  "observedDomContentLoaded": 1321,
-                  "observedDomContentLoadedTs": 296961268,
+                  "observedNavigationStartTs": 326699256,
+                  "observedFirstPaint": 1551,
+                  "observedFirstPaintTs": 328250332,
+                  "observedFirstContentfulPaint": 1551,
+                  "observedFirstContentfulPaintTs": 328250332,
+                  "observedFirstContentfulPaintAllFrames": 1551,
+                  "observedFirstContentfulPaintAllFramesTs": 328250332,
+                  "observedFirstMeaningfulPaint": 1551,
+                  "observedFirstMeaningfulPaintTs": 328250332,
+                  "observedLargestContentfulPaint": 1724,
+                  "observedLargestContentfulPaintTs": 328423472,
+                  "observedLargestContentfulPaintAllFrames": 1724,
+                  "observedLargestContentfulPaintAllFramesTs": 328423472,
+                  "observedTraceEnd": 4705,
+                  "observedTraceEndTs": 331403927,
+                  "observedLoad": 1692,
+                  "observedLoadTs": 328391515,
+                  "observedDomContentLoaded": 1548,
+                  "observedDomContentLoadedTs": 328246825,
                   "observedCumulativeLayoutShift": 0.03992729187011719,
                   "observedCumulativeLayoutShiftMainFrame": 0.03992729187011719,
                   "observedTotalCumulativeLayoutShift": 0.03992729187011719,
-                  "observedFirstVisualChange": 1297,
-                  "observedFirstVisualChangeTs": 296937549,
-                  "observedLastVisualChange": 1447,
-                  "observedLastVisualChangeTs": 297087549,
-                  "observedSpeedIndex": 1311,
-                  "observedSpeedIndexTs": 296951621
+                  "observedFirstVisualChange": 1554,
+                  "observedFirstVisualChangeTs": 328253256,
+                  "observedLastVisualChange": 1737,
+                  "observedLastVisualChangeTs": 328436256,
+                  "observedSpeedIndex": 1571,
+                  "observedSpeedIndexTs": 328270035
                 },
                 {
                   "lcpInvalidated": false
@@ -2701,18 +2768,18 @@
                   "numScripts": 2,
                   "numStylesheets": 4,
                   "numFonts": 0,
-                  "numTasks": 215,
-                  "numTasksOver10ms": 5,
-                  "numTasksOver25ms": 2,
+                  "numTasks": 230,
+                  "numTasksOver10ms": 4,
+                  "numTasksOver25ms": 1,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 14.036000000000001,
-                  "throughput": 16285995.070824971,
-                  "maxRtt": 115.64800000000001,
-                  "maxServerLatency": 115.30199999999998,
-                  "totalByteWeight": 1187259,
-                  "totalTaskTime": 198.98299999999995,
+                  "rtt": 17.201,
+                  "throughput": 13288469.74660446,
+                  "maxRtt": 142.696,
+                  "maxServerLatency": 141.33599999999998,
+                  "totalByteWeight": 1187258,
+                  "totalTaskTime": 166.04999999999984,
                   "mainDocumentTransferSize": 2097
                 }
               ]
@@ -2735,7 +2802,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://mon.agatha-budget.fr",
-        "size": 1214.496,
+        "size": 1214.494,
         "nodes": 42,
         "requests": 18,
         "grade": "A",
@@ -2743,7 +2810,7 @@
         "ges": 1.26,
         "water": 1.89,
         "ecoindex_version": "5.4.2",
-        "date": "2023-10-17 07:36:09.140197",
+        "date": "2023-10-17 13:07:56.098447",
         "page_type": null
       }
     ],
@@ -2755,6 +2822,8 @@
       "apdexGrade": "A",
       "uptime": 100,
       "uptimeGrade": "A",
+      "dependabotGrade": "E",
+      "dependabotCount": 1,
       "testsslExpireSoon": false,
       "testsslExpireDate": "2023-11-25T00:48:00.000Z",
       "testsslGrade": "A",
@@ -2762,7 +2831,7 @@
       "cookiesCount": 0,
       "trackersGrade": "C",
       "trackersCount": 5,
-      "lighthouse_performance": 0.9735483169555664,
+      "lighthouse_performance": 0.9735485076904297,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.95,
       "lighthouse_accessibilityGrade": "A",
