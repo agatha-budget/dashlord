@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://mon.agatha-budget.fr",
+        "size": 1214.496,
+        "nodes": 42,
+        "requests": 18,
+        "grade": "A",
+        "score": 87.0,
+        "ges": 1.26,
+        "water": 1.89,
+        "ecoindex_version": "5.4.2",
+        "date": "2023-10-17 07:36:09.140197",
+        "page_type": null
+    }
+]
