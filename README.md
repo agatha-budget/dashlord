@@ -1,4 +1,7 @@
-# DashLord
+# DashLord hors Etat
+
+Tentative de mise en place de l'outils Dashlord en personalisant le design system afin de permettre la même qualité de suivi pour des projets à destination des services publics hors État ou de l'open-source en général
+-------------------------------------
 
 Tableau de bord des bonnes pratiques techniques
 
