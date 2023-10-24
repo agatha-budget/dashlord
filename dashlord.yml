@@ -21,8 +21,7 @@ tools:
   declaration-a11y: true
   ecoindex: true
 urls:
-  - url: https://mon.agatha-budget.fr
-    title: Agatha-Budget Application
+  - url: https://erica-delagnier.fr/
+    title: CV Erica Delagnier
     repositories:
-      - agatha-budget/back
-      - agatha-budget/front-web
+      - ermoca/cv
