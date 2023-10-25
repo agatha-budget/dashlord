@@ -41,7 +41,7 @@ Ces workflows sont également déclenchables manuellement dans l'onglet "Actions
 
 - Le fichier [`dashlord.yml`](./dashlord.yml) permet de paramétrer les urls et quelques options du tableau de bord
 - Le workflow [`.github/workflows/scans.yml`](./.github/workflows/scans.yml) permet de customiser certains scanners, et régler la fréquence de scan (paramètre `schedule` positionné par défaut tous les dimanches à minuit)
-- Le workflow [`.github/workflows/report.yml`](./.github/workflows/report.yml) permet de générer le rapport web en se basant sur [SocialGouv/dashlord-actions/report](https://github.com/SocialGouv/dashlord-actions).
+- Le workflow [`.github/workflows/report.yml`](./.github/workflows/report.yml) permet de générer le rapport web en se basant sur [edelagnier/dashlord-actions/report](https://github.com/edelagnier/dashlord-actions).
 
 ### dashlord.yml
 
@@ -112,7 +112,7 @@ Chaque outil peut être activé/désactivé dans le rapport avec la clé `tools`
 
 | Repo                                                                                      | desc                                   |
 | ----------------------------------------------------------------------------------------- | -------------------------------------- |
-| [SocialGouv/dashlord-actions](https://github.com/SocialGouv/dashlord-actions)             | Dashlord specific actions              |
+| [edelagnier/dashlord-actions](https://github.com/edelagnier/dashlord-actions)             | Dashlord specific actions              |
 | [SocialGouv/dashlord-nuclei-action](https://github.com/SocialGouv/dashlord-nuclei-action) | Dump nuclei result                     |
 | [SocialGouv/httpobs-action](https://github.com/SocialGouv/httpobs-action)                 | Dump Mozilla HTTP Observatory result   |
 | [SocialGouv/thirdparties-action](https://github.com/SocialGouv/thirdparties-action)       | Dump third party scripts scan result   |
@@ -140,6 +140,6 @@ cf [CONTRIBUTING.md](./CONTRIBUTING.md)
 DashLord fonctionne en deux étapes :
 
 1. **Acquisition des données** : Pour chaque URL, chaque outil est executé et génère un fichier JSON qui sera versionné dans le repository
-2. **Génération du rapport** : À partir des données existantes, l'action [report](https://github.com/SocialGouv/dashlord-actions) aggrège, compresse les résultats et produit un rapport web statique.
+2. **Génération du rapport** : À partir des données existantes, l'action [report](https://github.com/edelagnier/dashlord-actions) aggrège, compresse les résultats et produit un rapport web statique.
 
-Voir aussi : [SocialGouv/dashlord-actions](https://github.com/SocialGouv/dashlord-actions)
+Voir aussi : [edelagnier/dashlord-actions](https://github.com/edelagnier/dashlord-actions)

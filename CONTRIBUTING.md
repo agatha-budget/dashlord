@@ -4,9 +4,9 @@ Les contributions sont bienvenues.
 
 ## Comment modifier le rendu du rapport ?
 
-Le rapport est généré avec l'[action report](https://github.com/SocialGouv/dashlord-actions/tree/main/report).
+Le rapport est généré avec l'[action report](https://github.com/edelagnier/dashlord-actions/tree/main/report).
 
-Pour développer en local, récupérer le code ici : https://github.com/SocialGouv/dashlord-actions/tree/main/report/www
+Pour développer en local, récupérer le code ici : https://github.com/edelagnier/dashlord-actions/tree/main/report/www
 
 Pour l'utiliser dans votre dashlord hebergé sur GitHub, modifiez la source de cette action dans votre workflow `report.yml` pour pointer vers votre version (ex: `uses: "my-gh-org/dashlord-actions/report@master"`).
 
@@ -25,8 +25,8 @@ Pour l'utiliser dans votre dashlord hebergé sur GitHub, modifiez la source de c
 
 #### Etape 2 : Ajout des données dans le rapport DashLord
 
-- cloner le repo `socialgouv/dashlord-actions` localement et créer une branche
-- dans `report/src/generateUrlReport` inclure le fichier JSON de l'action dans le rapport JSON généré pour l'URL : https://github.com/SocialGouv/dashlord-actions/blob/main/report/src/generateUrlReport.js#L117
+- cloner le repo `edelagnier/dashlord-actions` localement et créer une branche
+- dans `report/src/generateUrlReport` inclure le fichier JSON de l'action dans le rapport JSON généré pour l'URL : https://github.com/edelagnier/dashlord-actions/blob/main/report/src/generateUrlReport.js#L117
 - si besoin, minimiser les données importées (elle seront servies au front)
 - si besoin de calculer une "note" pour ce scanner, ajouter une fonction dans `report/src/summary`.
 
