@@ -1,50 +1,89 @@
 [
   {
-    "404": [],
-    "url": "https://erica-delagnier.fr/",
-    "title": "CV Erica Delagnier",
+    "404": [
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "agatha-budget.fr",
+          "port": null,
+          "hostname": "agatha-budget.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/temoignage/budget/2023/02/",
+          "path": "/temoignage/budget/2023/02/",
+          "href": "https://agatha-budget.fr/temoignage/budget/2023/02/"
+        },
+        "link": "https://agatha-budget.fr/temoignage/budget/2023/02/",
+        "line": "https://agatha-budget.fr/temoignage/budget/2023/02/",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "agatha-budget.fr",
+          "port": null,
+          "hostname": "agatha-budget.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/img/bg-pattern.png",
+          "path": "/img/bg-pattern.png",
+          "href": "https://agatha-budget.fr/img/bg-pattern.png"
+        },
+        "link": "https://agatha-budget.fr/img/bg-pattern.png",
+        "line": "https://agatha-budget.fr/img/bg-pattern.png",
+        "broken": true
+      }
+    ],
+    "url": "https://agatha-budget.fr/",
+    "title": "Agatha-Budget",
     "repositories": [
-      "ermoca/cv"
+      "agatha-budget/back"
     ],
     "http": {
-      "url": "https://erica-delagnier.fr/",
+      "url": "https://agatha-budget.fr/",
       "algorithm_version": 2,
-      "end_time": "Wed, 25 Oct 2023 07:58:01 GMT",
-      "grade": "D+",
+      "end_time": "Wed, 25 Oct 2023 14:58:46 GMT",
+      "grade": "D",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
       "response_headers": {
         "Accept-Ranges": "bytes",
         "Access-Control-Allow-Origin": "*",
-        "Age": "237",
+        "Age": "0",
         "Cache-Control": "max-age=600",
         "Connection": "keep-alive",
         "Content-Encoding": "gzip",
-        "Content-Length": "5243",
+        "Content-Length": "4173",
         "Content-Type": "text/html; charset=utf-8",
-        "Date": "Wed, 25 Oct 2023 07:58:01 GMT",
-        "ETag": "W/\"6511a4d5-607c\"",
-        "Last-Modified": "Mon, 25 Sep 2023 15:18:45 GMT",
+        "Date": "Wed, 25 Oct 2023 14:58:45 GMT",
+        "ETag": "W/\"64a42924-47e8\"",
+        "Last-Modified": "Tue, 04 Jul 2023 14:13:56 GMT",
         "Server": "GitHub.com",
         "Strict-Transport-Security": "max-age=31556952",
         "Vary": "Accept-Encoding",
         "Via": "1.1 varnish",
-        "X-Cache": "HIT",
-        "X-Cache-Hits": "1",
-        "X-Fastly-Request-ID": "d58c5a592c7b2aecee0e24e2c8ac269f8ed6b63b",
-        "X-GitHub-Request-Id": "CBE8:0D10:36087:3FCF2:6538C974",
-        "X-Served-By": "cache-sjc1000098-SJC",
-        "X-Timer": "S1698220681.045169,VS0,VE1",
-        "expires": "Wed, 25 Oct 2023 08:03:26 GMT",
+        "X-Cache": "MISS",
+        "X-Cache-Hits": "0",
+        "X-Fastly-Request-ID": "16dca19038ca376488c837aced961885228cfd2c",
+        "X-GitHub-Request-Id": "3678:0D12:15ED40:1A1BA3:65392D25",
+        "X-Served-By": "cache-pao-kpao1770073-PAO",
+        "X-Timer": "S1698245926.796258,VS0,VE87",
+        "expires": "Wed, 25 Oct 2023 15:08:45 GMT",
         "x-proxy-cache": "MISS"
       },
-      "scan_id": 43637197,
-      "score": 40,
-      "start_time": "Wed, 25 Oct 2023 07:57:59 GMT",
+      "scan_id": 43648793,
+      "score": 35,
+      "start_time": "Wed, 25 Oct 2023 14:58:44 GMT",
       "state": "FINISHED",
       "status_code": 200,
-      "tests_failed": 4,
-      "tests_passed": 8,
+      "tests_failed": 5,
+      "tests_passed": 7,
       "tests_quantity": 12,
       "details": {
         "content-security-policy": {
@@ -119,11 +158,11 @@
           "expectation": "redirection-to-https",
           "name": "redirection",
           "output": {
-            "destination": "https://erica-delagnier.fr/",
+            "destination": "https://agatha-budget.fr/",
             "redirects": true,
             "route": [
-              "http://erica-delagnier.fr/",
-              "https://erica-delagnier.fr/"
+              "http://agatha-budget.fr/",
+              "https://agatha-budget.fr/"
             ],
             "status_code": 200
           },
@@ -165,20 +204,16 @@
           "name": "subresource-integrity",
           "output": {
             "data": {
-              "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js": {
-                "crossorigin": "anonymous",
-                "integrity": "sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-              },
-              "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js": {
-                "crossorigin": "anonymous",
-                "integrity": "sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+              "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js": {
+                "crossorigin": null,
+                "integrity": null
               }
             }
           },
-          "pass": true,
-          "result": "sri-implemented-and-external-scripts-loaded-securely",
-          "score_description": "Subresource Integrity (SRI) is implemented and all scripts are loaded securely",
-          "score_modifier": 5
+          "pass": false,
+          "result": "sri-not-implemented-but-external-scripts-loaded-securely",
+          "score_description": "Subresource Integrity (SRI) not implemented, but all external scripts are loaded over HTTPS",
+          "score_modifier": -5
         },
         "x-content-type-options": {
           "expectation": "x-content-type-options-nosniff",
@@ -222,7 +257,7 @@
       "grade": "A",
       "repositories": [
         {
-          "url": "https://github.com/ermoca/cv",
+          "url": "https://github.com/agatha-budget/back",
           "vulnerabilityAlerts": {
             "totalCount": 0,
             "nodes": []
@@ -231,81 +266,91 @@
         }
       ]
     },
-    "codescan": null,
+    "codescan": {
+      "totalCount": 0,
+      "grade": "A",
+      "repositories": [
+        {
+          "url": "https://github.com/agatha-budget/back",
+          "grade": "A",
+          "alerts": []
+        }
+      ]
+    },
     "testssl": [
       {
         "id": "service",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "HTTP"
       },
       {
         "id": "pre_128cipher",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "No 128 cipher limit bug"
       },
       {
         "id": "SSLv2",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "SSLv3",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "TLS1",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_1",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_2",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "TLS1_3",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "offered with final"
       },
       {
         "id": "ALPN_HTTP2",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "h2"
       },
       {
         "id": "ALPN",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "http/1.1"
       },
       {
         "id": "cipherlist_NULL",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -313,7 +358,7 @@
       },
       {
         "id": "cipherlist_aNULL",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -321,7 +366,7 @@
       },
       {
         "id": "cipherlist_EXPORT",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -329,7 +374,7 @@
       },
       {
         "id": "cipherlist_LOW",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -337,7 +382,7 @@
       },
       {
         "id": "cipherlist_3DES_IDEA",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-310",
@@ -345,7 +390,7 @@
       },
       {
         "id": "cipherlist_OBSOLETED",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "LOW",
         "cwe": "CWE-310",
@@ -353,533 +398,533 @@
       },
       {
         "id": "cipherlist_STRONG_NOFS",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "cipherlist_STRONG_FS",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "cipher_order-tls1_2",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "server"
       },
       {
         "id": "cipherorder_TLSv1_2",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "cipher_order",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "server -- TLS 1.3 client determined"
       },
       {
         "id": "FS",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "FS_ciphers",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA"
       },
       {
         "id": "FS_ECDHE_curves",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "prime256v1 secp384r1"
       },
       {
         "id": "TLS_extensions",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'supported versions/#43' 'key share/#51' 'extended master secret/#23' 'application layer protocol negotiation/#16'"
       },
       {
         "id": "TLS_session_ticket",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "valid for 7200 seconds only (<daily)"
       },
       {
         "id": "SSL_sessionID_support",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "yes"
       },
       {
         "id": "sessionresumption_ticket",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "supported"
       },
       {
         "id": "sessionresumption_ID",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "supported"
       },
       {
         "id": "TLS_timestamp",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "random"
       },
       {
         "id": "certificate_compression",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "clientAuth",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "cert_numbers",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "1"
       },
       {
         "id": "cert_signatureAlgorithm",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "SHA256 with RSA"
       },
       {
         "id": "cert_keySize",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "RSA 2048 bits (exponent is 65537)"
       },
       {
         "id": "cert_keyUsage",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "Digital Signature, Key Encipherment"
       },
       {
         "id": "cert_extKeyUsage",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
       },
       {
         "id": "cert_serialNumber",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "0409EDC643D8A71656270D0CCF0258D31C41"
+        "finding": "04265BEDE408F12CE51DF60817823E0E6899"
       },
       {
         "id": "cert_serialNumberLen",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "18"
       },
       {
         "id": "cert_fingerprintSHA1",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "48E1EBBE1D238CA39EAD5F3A959EB1237A9F53F9"
+        "finding": "0394BE8EBFDD11FC49F30622CCD477D7814248D5"
       },
       {
         "id": "cert_fingerprintSHA256",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "4B16FD9AD42BD8F5CC9A89871B039703EB92218A328332D3014DC9DAD13B7BC1"
+        "finding": "3ED40E1CF60D8940C55E09BA6246321128DDCAEB4C1A568C3F51BB24A2E9B655"
       },
       {
         "id": "cert",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIFCDCCA/CgAwIBAgISBAntxkPYpxZWJw0MzwJY0xxBMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzA5MDIxNTMxMzdaFw0yMzEyMDExNTMxMzZaMB0xGzAZBgNVBAMTEmVyaWNhLWRlbGFnbmllci5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKvHGwztxgH46qmzzwgXT6LLfDTEZhLm7/OYF3nJZe5mTB+akn0z7gf6LhVi97TzH9VPLrFnqElCv+PMmrcwRsJo9SipZGlvTEtkJMnc7UafpB/C72820LxpJ7ji1hhwQCy09e6P9w2MbgOS513WPry7yVsoEKBa9jf14Z4VI3JujmkBCaSMpMnX2wUBkEhLkCCMOHoKYHR5GCYwjmALF7kkoIDfPxQA0wnnNEc1Y3xU0qCd4VfRyxPTPDAkl47qNACfzGwMavdUvF5g3EYxwgne2cPjYx6PHMWQkOjahr598cMfGoZpmwvgsgxHCMiSWStmL/qhOKEvEGX2l/0WhzMCAwEAAaOCAiswggInMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUY04VhVZapJQCwhZCpKWXmjgCV5cwHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wNQYDVR0RBC4wLIISZXJpY2EtZGVsYWduaWVyLmZyghZ3d3cuZXJpY2EtZGVsYWduaWVyLmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBAwYKKwYBBAHWeQIEAgSB9ASB8QDvAHUAejKMVNi3LbYg6jjgUh7phBZwMhOFTTvSK8E6V6NS61IAAAGKVrxUAwAABAMARjBEAiBriouRuxZtxZwe2RuFk0Ib2wRQ0enCnCYES5UlcppteQIgSoacA5jgkSlvzLSooVKVW+DQBqUZ0sjSkqfXSnspFQ4AdgDoPtDaPvUGNTLnVyi8iWvJA9PL0RFr7Otp4Xd9bQa9bgAAAYpWvFP4AAAEAwBHMEUCIQDz8U1atb0Z8cbDy7bQ833ak3X95OMLUPGyqdbtHyL+wwIgeb1V7vLazVVkVmWnW39AhnxWZB7Ar1tZpzC5KuJsr48wDQYJKoZIhvcNAQELBQADggEBAGSDYo6xZlXe6ZvV+58vZVSKjv7cyk4kIU13Ocu4sdkRFkdEpTX2t3WEolQM5zMf4BW/0nRv7sTR7YIkEem2mjmv7CF1m6PpuftPqGHPCiQ/8CUwyXjtvb23aCwCs7rPq30xPBq/6CztdgdCKd7CFN4lRMNnhYkzFxNMAEJGTF0VJrbNhKUQKeoBiHCrZikB5Qg9Rg7lwdzmhOENXbYYsyizmbc9WUNPcpPY07i5PfU2SjKefWErDDY0XKi3dkMYZR67ISl3KcuK8w5d/hAXfDJf3BSUQlxqSteWy3wn7hL/jbgamR+uQvGowAtTtQjfrai40pSj4l78azSKgoUJr1M=\n-----END CERTIFICATE-----"
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIFBDCCA+ygAwIBAgISBCZb7eQI8SzlHfYIF4I+DmiZMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzA5MDIxNTQ2MDdaFw0yMzEyMDExNTQ2MDZaMBsxGTAXBgNVBAMTEGFnYXRoYS1idWRnZXQuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCrxxsM7cYB+Oqps88IF0+iy3w0xGYS5u/zmBd5yWXuZkwfmpJ9M+4H+i4VYve08x/VTy6xZ6hJQr/jzJq3MEbCaPUoqWRpb0xLZCTJ3O1Gn6Qfwu9vNtC8aSe44tYYcEAstPXuj/cNjG4Dkudd1j68u8lbKBCgWvY39eGeFSNybo5pAQmkjKTJ19sFAZBIS5AgjDh6CmB0eRgmMI5gCxe5JKCA3z8UANMJ5zRHNWN8VNKgneFX0csT0zwwJJeO6jQAn8xsDGr3VLxeYNxGMcIJ3tnD42MejxzFkJDo2oa+ffHDHxqGaZsL4LIMRwjIklkrZi/6oTihLxBl9pf9FoczAgMBAAGjggIpMIICJTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFGNOFYVWWqSUAsIWQqSll5o4AleXMB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvMDEGA1UdEQQqMCiCEGFnYXRoYS1idWRnZXQuZnKCFHd3dy5hZ2F0aGEtYnVkZ2V0LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHYAtz77JN+cTbp18jnFulj0bF38Qs96nzXEnh0JgSXttJkAAAGKVsmb8AAABAMARzBFAiBfvYuOzfDaom80+N1NcUCOwEyGO7N7gDBr+M1aUcuXtAIhALILRPVIW1s+olk8bXXl3JvQz06leXsBYIgVSqaIvJ0UAHcAejKMVNi3LbYg6jjgUh7phBZwMhOFTTvSK8E6V6NS61IAAAGKVsmcAgAABAMASDBGAiEAx0fdr5PeI0gw+0gpbO9XI8YW3HNKm7eWEZTAIqk1oKYCIQDL/tm7Tsk6zceR1jqVWbRpzvvfCpsKy/Wnm6tbkcvTZjANBgkqhkiG9w0BAQsFAAOCAQEAH5iZ6E8+F/grveMtoi5lbr6Qmm4u/udnqPEk5UhEinXkwdhzSS/5C1qwccfyGZtxG5RNduXZVcG6ZK7CPl3G4fmynGy9SD8f6uJv8LCFhdnyudIFq0XgWvPsepZOZuVseUv7UH7ddTIym0L3N+PN1wcbQM9jxcC6q0u8U5E1NnjwrmX+h8WR9hf5JXnQQdlkM3MW0qDYnw4ks18ZMbXIcyw2bZ6ZSytG5i9lrLI3SB7/DvqIKUoysQEHNXKrXXEHmhr3dF7kcsD+c50ppyxtT1CNHwSmCZSsky/3fHvd/Ff7kNhxnVGguTwz+CVW6OHbppRcCss5fx8gsbZT/7ew8g==\n-----END CERTIFICATE-----"
       },
       {
         "id": "cert_commonName",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
-        "finding": "erica-delagnier.fr"
+        "finding": "agatha-budget.fr"
       },
       {
         "id": "cert_commonName_wo_SNI",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "*.github.io"
       },
       {
         "id": "cert_subjectAltName",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "erica-delagnier.fr www.erica-delagnier.fr"
+        "finding": "agatha-budget.fr www.agatha-budget.fr"
       },
       {
         "id": "cert_trust",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "Ok via SAN and CN (SNI mandatory)"
       },
       {
         "id": "cert_chain_of_trust",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "passed."
       },
       {
         "id": "cert_certificatePolicies_EV",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_expirationStatus",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "37 >= 30 days"
       },
       {
         "id": "cert_notBefore",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "2023-09-02 15:31"
+        "finding": "2023-09-02 15:46"
       },
       {
         "id": "cert_notAfter",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
-        "finding": "2023-12-01 15:31"
+        "finding": "2023-12-01 15:46"
       },
       {
         "id": "cert_extlifeSpan",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "certificate has no extended life time according to browser forum"
       },
       {
         "id": "cert_eTLS",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "not present"
       },
       {
         "id": "cert_crlDistributionPoints",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "--"
       },
       {
         "id": "cert_ocspURL",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "http://r3.o.lencr.org"
       },
       {
         "id": "OCSP_stapling",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "cert_ocspRevoked",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "not revoked"
       },
       {
         "id": "cert_mustStapleExtension",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "--"
       },
       {
         "id": "DNS_CAArecord",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "LOW",
         "finding": "--"
       },
       {
         "id": "certificate_transparency",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "yes (certificate extension)"
       },
       {
         "id": "certs_countServer",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "3"
       },
       {
         "id": "certs_list_ordering_problem",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_caIssuers",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "R3 (Let's Encrypt from US)"
       },
       {
         "id": "intermediate_cert <#1>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAwWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cPR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdxsxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8ZutmNHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxgZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaAFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRwOi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQBgt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6WPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wlikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQzCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BImlJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4avAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2yJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1OyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90IdshCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+HlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6ZvMldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqXnLRbwHOoq7hHwg==\n-----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#1>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "67ADD1166B020AE61B8F5FC96813C04C2AA589960796865572A3C7E737613DFD"
       },
       {
         "id": "intermediate_cert_notBefore <#1>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "2020-09-04 00:00"
       },
       {
         "id": "intermediate_cert_notAfter <#1>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "2025-09-15 16:00"
       },
       {
         "id": "intermediate_cert_expiration <#1>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "ok > 40 days"
       },
       {
         "id": "intermediate_cert_chain <#1>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "R3 <-- ISRG Root X1"
       },
       {
         "id": "intermediate_cert <#2>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE-----\nMIIFYDCCBEigAwIBAgIQQAF3ITfU6UK47naqPGQKtzANBgkqhkiG9w0BAQsFADA/MSQwIgYDVQQKExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMTDkRTVCBSb290IENBIFgzMB4XDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQwM1owTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCt6CRz9BQ385ueK1coHIe+3LffOJCMbjzmV6B493XCov71am72AE8o295ohmxEk7axY/0UEmu/H9LqMZshftEzPLpI9d1537O4/xLxIZpLwYqGcWlKZmZsj348cL+tKSIG8+TA5oCu4kuPt5l+lAOf00eXfJlII1PoOK5PCm+DLtFJV4yAdLbaL9A4jXsDcCEbdfIwPPqPrt3aY6vrFk/CjhFLfs8L6P+1dy70sntK4EwSJQxwjQMpoOFTJOwT2e4ZvxCzSow/iaNhUd6shweU9GNx7C7ib1uYgeGJXDR5bHbvO5BieebbpJovJsXQEOEO3tkQjhb7t/eo98flAgeYjzYIlefiN5YNNnWe+w5ysR2bvAP5SQXYgd0FtCrWQemsAXaVCg/Y39W9Eh81LygXbNKYwagJZHduRze6zqxZXmidf3LWicUGQSk+WT7dJvUkyRGnWqNMQB9GoZm1pzpRboY7nn1ypxIFeFntPlF4FQsDj43QLwWyPntKHEtzBRL8xurgUBN8Q5N0s8p0544fAQjQMNRbcTa0B7rBMDBcSLeCO5imfWCKoqMpgsy6vYMEG6KDA0Gh1gXxG8K28Kh8hjtGqEgqiNx2mna/H2qlPRmP6zjzZN7IKw0KKP/32+IVQtQi0Cdd4Xn+GOdwiK1O5tmLOsbdJ1Fu/7xk9TNDTwIDAQABo4IBRjCCAUIwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwSwYIKwYBBQUHAQEEPzA9MDsGCCsGAQUFBzAChi9odHRwOi8vYXBwcy5pZGVudHJ1c3QuY29tL3Jvb3RzL2RzdHJvb3RjYXgzLnA3YzAfBgNVHSMEGDAWgBTEp7Gkeyxx+tvhS5B1/8QVYIWJEDBUBgNVHSAETTBLMAgGBmeBDAECATA/BgsrBgEEAYLfEwEBATAwMC4GCCsGAQUFBwIBFiJodHRwOi8vY3BzLnJvb3QteDEubGV0c2VuY3J5cHQub3JnMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuaWRlbnRydXN0LmNvbS9EU1RST09UQ0FYM0NSTC5jcmwwHQYDVR0OBBYEFHm0WeZ7tuXkAXOACIjIGlj26ZtuMA0GCSqGSIb3DQEBCwUAA4IBAQAKcwBslm7/DlLQrt2M51oGrS+o44+/yQoDFVDC5WxCu2+b9LRPwkSICHXM6webFGJueN7sJ7o5XPWioW5WlHAQU7G75K/QosMrAdSW9MUgNTP52GE24HGNtLi1qoJFlcDyqSMo59ahy2cI2qBDLKobkx/J3vWraV0T9VuGWCLKTVXkcGdtwlfFRjlBz4pYg1htmf5X6DYO8A4jqv2Il9DjXA6USbW1FzXSLr9Ohe8Y4IWS6wY7bCkjCWDcRQJMEhg76fsO3txE+FiYruq9RUWhiF1myv4Q6W+CyBFCDfvp7OOGAN6dEOM4+qR9sdjoSYKEBpsr6GtPAQw4dy753ec5\n-----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#2>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "6D99FB265EB1C5B3744765FCBC648F3CD8E1BFFAFDC4C2F99B9D47CF7FF1C24F"
       },
       {
         "id": "intermediate_cert_notBefore <#2>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "2021-01-20 19:14"
       },
       {
         "id": "intermediate_cert_notAfter <#2>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "2024-09-30 18:14"
       },
       {
         "id": "intermediate_cert_expiration <#2>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "ok > 40 days"
       },
       {
         "id": "intermediate_cert_chain <#2>",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "ISRG Root X1 <-- DST Root CA X3"
       },
       {
         "id": "intermediate_cert_badOCSP",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "intermediate certificate(s) is/are ok"
       },
       {
         "id": "HTTP_status_code",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "200 OK ('/')"
       },
       {
         "id": "HTTP_clock_skew",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "+182 seconds from localtime"
+        "finding": "+148 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "1698244726"
+        "finding": "1698245968"
       },
       {
         "id": "HTTP_headerAge",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "182 seconds"
+        "finding": "148 seconds"
       },
       {
         "id": "HSTS_time",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "365 days (=31556952 seconds) > 15552000 seconds"
       },
       {
         "id": "HSTS_subdomains",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "only for this domain"
       },
       {
         "id": "HSTS_preload",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "domain is NOT marked for preloading"
       },
       {
         "id": "HPKP",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "No support for HTTP Public Key Pinning"
       },
       {
         "id": "banner_server",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "GitHub.com"
       },
       {
         "id": "banner_application",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "No application banner found"
       },
       {
         "id": "cookie_count",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "0 at '/'"
       },
       {
         "id": "Access-Control-Allow-Origin",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "*"
       },
       {
         "id": "X-Served-By",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "cache-sjc10037-SJC"
+        "finding": "cache-iad-kcgs7200168-IAD"
       },
       {
         "id": "Cache-Control",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "max-age=600"
       },
       {
         "id": "banner_reverseproxy",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-200",
-        "finding": "Via: 1.1 varnishX-Cache: HITX-Cache-Hits: 1"
+        "finding": "Via: 1.1 varnishX-Cache: HITX-Cache-Hits: 3"
       },
       {
         "id": "heartbleed",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0160",
@@ -888,7 +933,7 @@
       },
       {
         "id": "CCS",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0224",
@@ -897,7 +942,7 @@
       },
       {
         "id": "ticketbleed",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-9244",
@@ -906,7 +951,7 @@
       },
       {
         "id": "ROBOT",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
@@ -915,7 +960,7 @@
       },
       {
         "id": "secure_renego",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-310",
@@ -923,7 +968,7 @@
       },
       {
         "id": "secure_client_renego",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-1473",
@@ -932,7 +977,7 @@
       },
       {
         "id": "CRIME_TLS",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2012-4929",
@@ -941,7 +986,7 @@
       },
       {
         "id": "BREACH",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "MEDIUM",
         "cve": "CVE-2013-3587",
@@ -950,7 +995,7 @@
       },
       {
         "id": "POODLE_SSL",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-3566",
@@ -959,14 +1004,14 @@
       },
       {
         "id": "fallback_SCSV",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "no protocol below TLS 1.2 offered"
       },
       {
         "id": "SWEET32",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-2183 CVE-2016-6329",
@@ -975,7 +1020,7 @@
       },
       {
         "id": "FREAK",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-0204",
@@ -984,7 +1029,7 @@
       },
       {
         "id": "DROWN",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-0800 CVE-2016-0703",
@@ -993,16 +1038,16 @@
       },
       {
         "id": "DROWN_hint",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "cve": "CVE-2016-0800 CVE-2016-0703",
         "cwe": "CWE-310",
-        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=4B16FD9AD42BD8F5CC9A89871B039703EB92218A328332D3014DC9DAD13B7BC1"
+        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3ED40E1CF60D8940C55E09BA6246321128DDCAEB4C1A568C3F51BB24A2E9B655"
       },
       {
         "id": "LOGJAM",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-4000",
@@ -1011,7 +1056,7 @@
       },
       {
         "id": "LOGJAM-common_primes",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-4000",
@@ -1020,7 +1065,7 @@
       },
       {
         "id": "BEAST",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-3389",
@@ -1029,7 +1074,7 @@
       },
       {
         "id": "LUCKY13",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "LOW",
         "cve": "CVE-2013-0169",
@@ -1038,7 +1083,7 @@
       },
       {
         "id": "winshock",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-6321",
@@ -1047,7 +1092,7 @@
       },
       {
         "id": "RC4",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2013-2566 CVE-2015-2808",
@@ -1056,451 +1101,438 @@
       },
       {
         "id": "clientsimulation-android_60",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_70",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_81",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_90",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_X",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_11",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_12",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-chrome_79_win10",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-chrome_101_win10",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-firefox_66_win81",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-firefox_100_win10",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-ie_6_xp",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_8_win7",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_8_xp",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win7",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
       },
       {
         "id": "clientsimulation-ie_11_win81",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
       },
       {
         "id": "clientsimulation-ie_11_winphone81",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
       },
       {
         "id": "clientsimulation-ie_11_win10",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-edge_15_win10",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-edge_101_win10_21h2",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-safari_121_ios_122",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
       },
       {
         "id": "clientsimulation-safari_130_osx_10146",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
       },
       {
         "id": "clientsimulation-safari_154_osx_1231",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java_7u25",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-java_8u161",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-java1102",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java1703",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-go_1178",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-libressl_283",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
       },
       {
         "id": "clientsimulation-openssl_102e",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-openssl_110l",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
       },
       {
         "id": "clientsimulation-openssl_111d",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-openssl_303",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
       },
       {
         "id": "clientsimulation-apple_mail_16_0",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-thunderbird_91_9",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "rating_spec",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
       },
       {
         "id": "rating_doc",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
       },
       {
         "id": "protocol_support_score",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "100"
       },
       {
         "id": "protocol_support_score_weighted",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "30"
       },
       {
         "id": "key_exchange_score",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "90"
       },
       {
         "id": "key_exchange_score_weighted",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "27"
       },
       {
         "id": "cipher_strength_score",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "60"
       },
       {
         "id": "cipher_strength_score_weighted",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "24"
       },
       {
         "id": "final_score",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
         "finding": "81"
       },
       {
         "id": "overall_grade",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "OK",
         "finding": "A+"
       },
       {
         "id": "scanTime",
-        "ip": "erica-delagnier.fr/185.199.108.153",
+        "ip": "agatha-budget.fr/185.199.108.153",
         "port": "443",
         "severity": "INFO",
-        "finding": "73"
+        "finding": "71"
       }
     ],
     "thirdparties": {
       "trackers": [
         {
-          "type": "bootstrapcdn",
-          "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
-          "details": {
-            "id": "bootstrapcdn",
-            "message": "Host files locally"
-          }
-        },
-        {
-          "type": "cloudflare",
-          "url": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js",
-          "details": {
-            "id": "cloudflare",
-            "message": "Host files locally"
-          }
-        },
-        {
-          "type": "bootstrapcdn",
-          "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js",
-          "details": {
-            "id": "bootstrapcdn",
-            "message": "Host files locally"
-          }
-        },
-        {
-          "type": "google analytics",
-          "url": "https://www.google-analytics.com/analytics.js",
-          "details": {
-            "id": "google analytics",
-            "message": "Use hosted Matomo instance"
-          }
-        },
-        {
           "type": "google fonts",
-          "url": "https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i",
+          "url": "https://fonts.googleapis.com/css?family=Lato",
           "details": {
             "id": "google fonts",
             "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
           }
         },
         {
-          "type": "FontAwesome",
-          "url": "https://use.fontawesome.com/releases/v6.4.0/css/all.css",
+          "type": "google fonts",
+          "url": "https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900",
           "details": {
-            "id": "FontAwesome",
-            "message": "Host fonts directly"
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
           }
         },
         {
-          "type": "FontAwesome",
-          "url": "https://use.fontawesome.com/releases/v6.4.0/webfonts/fa-solid-900.woff2",
+          "type": "google fonts",
+          "url": "https://fonts.googleapis.com/css?family=Muli",
           "details": {
-            "id": "FontAwesome",
-            "message": "Host fonts directly"
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
           }
         },
         {
-          "type": "FontAwesome",
-          "url": "https://use.fontawesome.com/releases/v6.4.0/webfonts/fa-solid-900.woff2",
+          "type": "cloudflare",
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js",
           "details": {
-            "id": "FontAwesome",
-            "message": "Host fonts directly"
+            "id": "cloudflare",
+            "message": "Host files locally"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/catamaran/v19/o-0IIpQoyXQa2RxT7-5r5TRA.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/muli/v29/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30eg.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/catamaran/v19/o-0IIpQoyXQa2RxT7-5r5TRA.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+          }
+        },
+        {
+          "type": "google fonts",
+          "url": "https://fonts.gstatic.com/s/muli/v29/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30eg.woff2",
+          "details": {
+            "id": "google fonts",
+            "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
           }
         }
       ],
-      "cookies": [
-        {
-          "name": "_gid",
-          "value": "GA1.2.105505917.1698244461",
-          "domain": ".erica-delagnier.fr",
-          "path": "/",
-          "expires": 1698330861,
-          "size": 30,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        },
-        {
-          "name": "_ga",
-          "value": "GA1.2.367487057.1698244461",
-          "domain": ".erica-delagnier.fr",
-          "path": "/",
-          "expires": 1761316461,
-          "size": 29,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "sameParty": false,
-          "sourceScheme": "Secure",
-          "sourcePort": 443
-        }
-      ],
+      "cookies": [],
       "headers": {
         "accept-ranges": "bytes",
         "access-control-allow-origin": "*",
         "age": "0",
         "cache-control": "max-age=600",
         "content-encoding": "gzip",
-        "content-length": "5243",
+        "content-length": "4173",
         "content-type": "text/html; charset=utf-8",
-        "date": "Wed, 25 Oct 2023 14:34:20 GMT",
-        "etag": "W/\"6511a4d5-607c\"",
-        "expires": "Wed, 25 Oct 2023 14:44:20 GMT",
-        "last-modified": "Mon, 25 Sep 2023 15:18:45 GMT",
+        "date": "Wed, 25 Oct 2023 14:56:11 GMT",
+        "etag": "W/\"64a42924-47e8\"",
+        "expires": "Wed, 25 Oct 2023 15:06:11 GMT",
+        "last-modified": "Tue, 04 Jul 2023 14:13:56 GMT",
         "server": "GitHub.com",
         "strict-transport-security": "max-age=31556952",
         "vary": "Accept-Encoding",
         "via": "1.1 varnish",
         "x-cache": "MISS",
         "x-cache-hits": "0",
-        "x-fastly-request-id": "266aa054e0d71b5c7f797454bb3ba7d2c15905bc",
-        "x-github-request-id": "B96E:0D0E:2E99F:394F6:6539276C",
+        "x-fastly-request-id": "b29790dc27cf62fda17d334b63730655419d3fce",
+        "x-github-request-id": "D76A:7C25:7C49EF:A73D66:65392C8A",
         "x-proxy-cache": "MISS",
-        "x-served-by": "cache-sjc1000136-SJC",
-        "x-timer": "S1698244461.738043,VS0,VE84"
+        "x-served-by": "cache-iad-kcgs7200168-IAD",
+        "x-timer": "S1698245771.033342,VS0,VE6"
       },
       "endpoints": [
         {
-          "hostname": "erica-delagnier.fr",
+          "hostname": "agatha-budget.fr",
           "ip": "185.199.108.153",
           "geoip": {
             "continent": {
@@ -1570,9 +1602,43 @@
           }
         },
         {
-          "hostname": "stackpath.bootstrapcdn.com",
-          "ip": "104.18.11.207",
+          "hostname": "fonts.googleapis.com",
+          "ip": "172.253.115.95",
           "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "Vereinigte Staaten",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
             "registered_country": {
               "geoname_id": 6252001,
               "iso_code": "US",
@@ -1591,7 +1657,7 @@
         },
         {
           "hostname": "cdnjs.cloudflare.com",
-          "ip": "104.17.25.14",
+          "ip": "104.17.24.14",
           "geoip": {
             "registered_country": {
               "geoname_id": 6252001,
@@ -1610,13 +1676,14 @@
           }
         },
         {
-          "hostname": "www.google-analytics.com",
-          "ip": "142.251.46.206",
+          "hostname": "fonts.gstatic.com",
+          "ip": "142.250.31.94",
           "geoip": {
             "city": {
-              "geoname_id": 5133273,
+              "geoname_id": 4364745,
               "names": {
-                "en": "Queens"
+                "en": "Oxford",
+                "ru": "Оксфорд"
               }
             },
             "continent": {
@@ -1648,14 +1715,14 @@
               }
             },
             "location": {
-              "accuracy_radius": 500,
-              "latitude": 40.66,
-              "longitude": -73.839,
-              "metro_code": 501,
+              "accuracy_radius": 50,
+              "latitude": 38.6828,
+              "longitude": -76.1563,
+              "metro_code": 512,
               "time_zone": "America/New_York"
             },
             "postal": {
-              "code": "11414"
+              "code": "21654"
             },
             "registered_country": {
               "geoname_id": 6252001,
@@ -1673,183 +1740,58 @@
             },
             "subdivisions": [
               {
-                "geoname_id": 5128638,
-                "iso_code": "NY",
+                "geoname_id": 4361885,
+                "iso_code": "MD",
                 "names": {
-                  "de": "New York",
-                  "en": "New York",
-                  "es": "Nueva York",
-                  "fr": "New York",
-                  "ja": "ニューヨーク州",
-                  "pt-BR": "Nova Iorque",
-                  "ru": "Нью-Йорк",
-                  "zh-CN": "纽约州"
+                  "de": "Maryland",
+                  "en": "Maryland",
+                  "es": "Maryland",
+                  "fr": "Maryland",
+                  "ja": "メリーランド州",
+                  "pt-BR": "Maryland",
+                  "ru": "Мэриленд",
+                  "zh-CN": "马里兰州"
                 }
               }
             ]
-          }
-        },
-        {
-          "hostname": "fonts.googleapis.com",
-          "ip": "142.251.214.138",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
-          }
-        },
-        {
-          "hostname": "use.fontawesome.com",
-          "ip": "172.64.103.11",
-          "geoip": {
-            "continent": {
-              "code": "NA",
-              "geoname_id": 6255149,
-              "names": {
-                "de": "Nordamerika",
-                "en": "North America",
-                "es": "Norteamérica",
-                "fr": "Amérique du Nord",
-                "ja": "北アメリカ",
-                "pt-BR": "América do Norte",
-                "ru": "Северная Америка",
-                "zh-CN": "北美洲"
-              }
-            },
-            "country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            },
-            "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
-            },
-            "registered_country": {
-              "geoname_id": 6252001,
-              "iso_code": "US",
-              "names": {
-                "de": "Vereinigte Staaten",
-                "en": "United States",
-                "es": "Estados Unidos",
-                "fr": "États Unis",
-                "ja": "アメリカ",
-                "pt-BR": "EUA",
-                "ru": "США",
-                "zh-CN": "美国"
-              }
-            }
           }
         }
       ]
     },
     "wappalyzer": {
       "urls": {
-        "https://erica-delagnier.fr/": {
+        "https://agatha-budget.fr/": {
           "status": 200
         }
       },
       "technologies": [
         {
-          "slug": "jekyll",
-          "name": "Jekyll",
-          "description": "Jekyll is a blog-aware, static site generator for personal, project, or organisation sites.",
+          "slug": "bootstrap",
+          "name": "Bootstrap",
+          "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
           "confidence": 100,
-          "version": "3.9.3",
-          "icon": "Jekyll.svg",
-          "website": "https://jekyllrb.com",
-          "cpe": "cpe:2.3:a:jekyllrb:jekyll:*:*:*:*:*:*:*:*",
+          "version": "3.3.7",
+          "icon": "Bootstrap.svg",
+          "website": "https://getbootstrap.com",
+          "cpe": "cpe:2.3:a:getbootstrap:bootstrap:*:*:*:*:*:*:*:*",
           "categories": [
             {
-              "id": 57,
-              "slug": "static-site-generator",
-              "name": "Static site generator"
+              "id": 66,
+              "slug": "ui-frameworks",
+              "name": "UI frameworks"
             }
           ],
           "rootPath": true
         },
         {
-          "slug": "ruby",
-          "name": "Ruby",
-          "description": "Ruby is an open-source object-oriented programming language.",
+          "slug": "animate-css",
+          "name": "Animate.css",
+          "description": "Animate.css is a ready-to-use library collection of CSS3 animation effects.",
           "confidence": 100,
           "version": null,
-          "icon": "Ruby.png",
-          "website": "https://ruby-lang.org",
-          "cpe": "cpe:2.3:a:ruby-lang:ruby:*:*:*:*:*:*:*:*",
-          "categories": [
-            {
-              "id": 27,
-              "slug": "programming-languages",
-              "name": "Programming languages"
-            }
-          ]
-        },
-        {
-          "slug": "bootstrap",
-          "name": "Bootstrap",
-          "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
-          "confidence": 100,
-          "version": "4.2.1",
-          "icon": "Bootstrap.svg",
-          "website": "https://getbootstrap.com",
-          "cpe": "cpe:2.3:a:getbootstrap:bootstrap:*:*:*:*:*:*:*:*",
+          "icon": "Animate.css.svg",
+          "website": "https://animate.style",
+          "cpe": null,
           "categories": [
             {
               "id": 66,
@@ -1935,7 +1877,7 @@
           "name": "jQuery",
           "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
           "confidence": 100,
-          "version": "3.3.1",
+          "version": "1.11.1",
           "icon": "jQuery.svg",
           "website": "https://jquery.com",
           "cpe": "cpe:2.3:a:jquery:jquery:*:*:*:*:*:*:*:*",
@@ -1944,24 +1886,6 @@
               "id": 59,
               "slug": "javascript-libraries",
               "name": "JavaScript libraries"
-            }
-          ],
-          "rootPath": true
-        },
-        {
-          "slug": "google-analytics",
-          "name": "Google Analytics",
-          "description": "Google Analytics is a free web analytics service that tracks and reports website traffic.",
-          "confidence": 100,
-          "version": null,
-          "icon": "Google Analytics.svg",
-          "website": "https://google.com/analytics",
-          "cpe": null,
-          "categories": [
-            {
-              "id": 10,
-              "slug": "analytics",
-              "name": "Analytics"
             }
           ],
           "rootPath": true
@@ -2042,56 +1966,41 @@
             }
           ],
           "rootPath": true
-        },
-        {
-          "slug": "popper",
-          "name": "Popper",
-          "description": "Popper is a positioning engine, its purpose is to calculate the position of an element to make it possible to position it near a given reference element.",
-          "confidence": 100,
-          "version": "1.14.6",
-          "icon": "Popper.svg",
-          "website": "https://popper.js.org",
-          "cpe": null,
-          "categories": [
-            {
-              "id": 19,
-              "slug": "miscellaneous",
-              "name": "Miscellaneous"
-            }
-          ],
-          "rootPath": true
-        },
-        {
-          "slug": "open-graph",
-          "name": "Open Graph",
-          "description": "Open Graph is a protocol that is used to integrate any web page into the social graph.",
-          "confidence": 100,
-          "version": null,
-          "icon": "Open Graph.png",
-          "website": "https://ogp.me",
-          "cpe": null,
-          "categories": [
-            {
-              "id": 19,
-              "slug": "miscellaneous",
-              "name": "Miscellaneous"
-            }
-          ],
-          "rootPath": true
         }
       ]
     },
     "zap": {
       "@programName": "ZAP",
       "@version": "2.14.0",
-      "@generated": "Wed, 25 Oct 2023 14:37:48",
+      "@generated": "Wed, 25 Oct 2023 14:58:36",
       "site": [
         {
-          "@name": "https://erica-delagnier.fr",
-          "@host": "erica-delagnier.fr",
+          "@name": "https://agatha-budget.fr",
+          "@host": "agatha-budget.fr",
           "@port": "443",
           "@ssl": "true",
           "alerts": [
+            {
+              "name": "Absence of Anti-CSRF Tokens",
+              "riskcode": "2",
+              "confidence": "1",
+              "riskdesc": "Medium (Low)",
+              "desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>"
+            },
+            {
+              "name": "CSP: Wildcard Directive",
+              "riskcode": "2",
+              "confidence": "3",
+              "riskdesc": "Medium (High)",
+              "desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>"
+            },
+            {
+              "name": "CSP: style-src unsafe-inline",
+              "riskcode": "2",
+              "confidence": "3",
+              "riskdesc": "Medium (High)",
+              "desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>"
+            },
             {
               "name": "Content Security Policy (CSP) Header Not Set",
               "riskcode": "2",
@@ -2114,13 +2023,6 @@
               "desc": "<p>The response does not include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options to protect against 'ClickJacking' attacks.</p>"
             },
             {
-              "name": "Source Code Disclosure - PHP",
-              "riskcode": "2",
-              "confidence": "2",
-              "riskdesc": "Medium (Medium)",
-              "desc": "<p>Application Source Code was disclosed by the web server - PHP</p>"
-            },
-            {
               "name": "Sub Resource Integrity Attribute Missing",
               "riskcode": "2",
               "confidence": "3",
@@ -2132,7 +2034,14 @@
               "riskcode": "2",
               "confidence": "2",
               "riskdesc": "Medium (Medium)",
-              "desc": "<p>The identified library jquery, version 3.3.1 is vulnerable.</p>"
+              "desc": "<p>The identified library bootstrap, version 3.3.2 is vulnerable.</p>"
+            },
+            {
+              "name": "Cross-Domain JavaScript Source File Inclusion",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>The page includes one or more script files from a third-party domain.</p>"
             },
             {
               "name": "Dangerous JS Functions",
@@ -2161,6 +2070,13 @@
               "confidence": "2",
               "riskdesc": "Informational (Medium)",
               "desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>"
+            },
+            {
+              "name": "CSP: Header & Meta",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>The message contained both CSP specified via header and via Meta tag. It was not possible to union these policies in order to perform an analysis. Therefore, they have been evaluated individually.</p>"
             },
             {
               "name": "Information Disclosure - Suspicious Comments",
@@ -2261,9 +2177,9 @@
           }
         },
         "type": "dns",
-        "host": "erica-delagnier.fr.",
-        "matched-at": "erica-delagnier.fr",
-        "timestamp": "2023-10-25T14:39:59.050775864Z",
+        "host": "agatha-budget.fr.",
+        "matched-at": "agatha-budget.fr",
+        "timestamp": "2023-10-25T15:00:37.299592393Z",
         "matcher-status": true
       },
       {
@@ -2293,13 +2209,53 @@
           }
         },
         "type": "dns",
-        "host": "erica-delagnier.fr.",
-        "matched-at": "erica-delagnier.fr",
+        "host": "agatha-budget.fr.",
+        "matched-at": "agatha-budget.fr",
         "extracted-results": [
-          "ns100.ovh.net.",
-          "dns100.ovh.net."
+          "ns11.ovh.net.",
+          "dns11.ovh.net."
         ],
-        "timestamp": "2023-10-25T14:39:59.328780222Z",
+        "timestamp": "2023-10-25T15:00:37.460549077Z",
+        "matcher-status": true
+      },
+      {
+        "template": "dns/txt-fingerprint.yaml",
+        "template-url": "https://templates.nuclei.sh/public/txt-fingerprint",
+        "template-id": "txt-fingerprint",
+        "template-path": "/home/runner/nuclei-templates/dns/txt-fingerprint.yaml",
+        "info": {
+          "name": "DNS TXT Record Detected",
+          "author": [
+            "pdteam"
+          ],
+          "tags": [
+            "dns",
+            "txt"
+          ],
+          "description": "A DNS TXT record was detected. The TXT record lets a domain admin leave notes on a DNS server.",
+          "reference": [
+            "https://www.netspi.com/blog/technical/network-penetration-testing/analyzing-dns-txt-records-to-fingerprint-service-providers/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ]
+          }
+        },
+        "type": "dns",
+        "host": "agatha-budget.fr.",
+        "matched-at": "agatha-budget.fr",
+        "extracted-results": [
+          "\"v=spf1 include:mx.ovh.com ~all\"",
+          "\"1|www.agatha-budget.fr\"",
+          "\"google-site-verification=XOy-bkmyBg8EHXgky8xjQMFXw0ayWxrJdjCcgNDeIpI\""
+        ],
+        "timestamp": "2023-10-25T15:00:37.461099882Z",
         "matcher-status": true
       },
       {
@@ -2333,112 +2289,14 @@
           }
         },
         "type": "dns",
-        "host": "erica-delagnier.fr.",
-        "matched-at": "erica-delagnier.fr",
+        "host": "agatha-budget.fr.",
+        "matched-at": "agatha-budget.fr",
         "extracted-results": [
-          "1 mx4.mail.ovh.net.",
-          "10 mx3.mail.ovh.net."
+          "5 mx2.mail.ovh.net.",
+          "1 mx1.mail.ovh.net.",
+          "100 mx3.mail.ovh.net."
         ],
-        "timestamp": "2023-10-25T14:39:59.372802215Z",
-        "matcher-status": true
-      },
-      {
-        "template": "dns/txt-fingerprint.yaml",
-        "template-url": "https://templates.nuclei.sh/public/txt-fingerprint",
-        "template-id": "txt-fingerprint",
-        "template-path": "/home/runner/nuclei-templates/dns/txt-fingerprint.yaml",
-        "info": {
-          "name": "DNS TXT Record Detected",
-          "author": [
-            "pdteam"
-          ],
-          "tags": [
-            "dns",
-            "txt"
-          ],
-          "description": "A DNS TXT record was detected. The TXT record lets a domain admin leave notes on a DNS server.",
-          "reference": [
-            "https://www.netspi.com/blog/technical/network-penetration-testing/analyzing-dns-txt-records-to-fingerprint-service-providers/"
-          ],
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          },
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ]
-          }
-        },
-        "type": "dns",
-        "host": "erica-delagnier.fr.",
-        "matched-at": "erica-delagnier.fr",
-        "extracted-results": [
-          "\"1|www.erica-delagnier.fr\""
-        ],
-        "timestamp": "2023-10-25T14:39:59.879900186Z",
-        "matcher-status": true
-      },
-      {
-        "template": "http/technologies/metatag-cms.yaml",
-        "template-url": "https://templates.nuclei.sh/public/metatag-cms",
-        "template-id": "metatag-cms",
-        "template-path": "/home/runner/nuclei-templates/http/technologies/metatag-cms.yaml",
-        "info": {
-          "name": "Metatag CMS Detection",
-          "author": [
-            "dadevel"
-          ],
-          "tags": [
-            "tech",
-            "cms"
-          ],
-          "description": "Generic CMS Detection using html meta generator tag",
-          "reference": [
-            "https://www.w3schools.com/tags/att_meta_name.asp"
-          ],
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
-        "extracted-results": [
-          "Jekyll v3.9.3"
-        ],
-        "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:27.239358809Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/technologies/tech-detect.yaml",
-        "template-url": "https://templates.nuclei.sh/public/tech-detect",
-        "template-id": "tech-detect",
-        "template-path": "/home/runner/nuclei-templates/http/technologies/tech-detect.yaml",
-        "info": {
-          "name": "Wappalyzer Technology Detection",
-          "author": [
-            "hakluke"
-          ],
-          "tags": [
-            "tech"
-          ],
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "jekyll",
-        "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
-        "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:27.373051947Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:00:37.464019408Z",
         "matcher-status": true
       },
       {
@@ -2461,11 +2319,38 @@
         },
         "matcher-name": "font-awesome",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:27.373658051Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:01:03.510334252Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/technologies/tech-detect.yaml",
+        "template-url": "https://templates.nuclei.sh/public/tech-detect",
+        "template-id": "tech-detect",
+        "template-path": "/home/runner/nuclei-templates/http/technologies/tech-detect.yaml",
+        "info": {
+          "name": "Wappalyzer Technology Detection",
+          "author": [
+            "hakluke"
+          ],
+          "tags": [
+            "tech"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "animate.css",
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
+        "ip": "185.199.108.153",
+        "timestamp": "2023-10-25T15:01:03.510391052Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
@@ -2488,11 +2373,11 @@
         },
         "matcher-name": "bootstrap",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:27.373865053Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:01:03.510403553Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
@@ -2515,159 +2400,42 @@
         },
         "matcher-name": "google-font-api",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:27.373889653Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:01:03.510414053Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "template": "http/miscellaneous/old-copyright.yaml",
+        "template-url": "https://templates.nuclei.sh/public/old-copyright",
+        "template-id": "old-copyright",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/old-copyright.yaml",
         "info": {
-          "name": "HTTP Missing Security Headers",
+          "name": "Find Pages with Old Copyright Dates",
           "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
+            "geeknik"
           ],
           "tags": [
-            "misconfig",
-            "headers",
+            "misc",
             "generic"
           ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
           "severity": "info",
           "metadata": {
-            "max-request": 1
+            "max-request": 1,
+            "verified": true
           }
         },
-        "matcher-name": "referrer-policy",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
+        "extracted-results": [
+          "&copy; 2016 "
+        ],
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:31.512782497Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "clear-site-data",
-        "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
-        "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:31.512878198Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "cross-origin-resource-policy",
-        "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
-        "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:31.512910298Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "content-security-policy",
-        "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
-        "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:31.512942398Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:01:07.475655042Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
@@ -2700,11 +2468,11 @@
         },
         "matcher-name": "x-content-type-options",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:31.512955698Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:01:07.476266348Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
@@ -2737,11 +2505,48 @@
         },
         "matcher-name": "x-permitted-cross-domain-policies",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:31.512967498Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:01:07.476297949Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "referrer-policy",
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
+        "ip": "185.199.108.153",
+        "timestamp": "2023-10-25T15:01:07.476309649Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
@@ -2774,11 +2579,11 @@
         },
         "matcher-name": "cross-origin-embedder-policy",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:31.512979198Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:01:07.47644425Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
@@ -2809,50 +2614,13 @@
             "max-request": 1
           }
         },
-        "matcher-name": "cross-origin-opener-policy",
+        "matcher-name": "content-security-policy",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:31.512990798Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "permissions-policy",
-        "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
-        "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:31.513002598Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:01:07.47646095Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
@@ -2885,149 +2653,255 @@
         },
         "matcher-name": "x-frame-options",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:31.513021498Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:01:07.47647265Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
-        "template": "http/miscellaneous/rdap-whois.yaml",
-        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
-        "template-id": "rdap-whois",
-        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
         "info": {
-          "name": "RDAP WHOIS",
+          "name": "HTTP Missing Security Headers",
           "author": [
-            "ricardomaia",
-            "sttlr"
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
           ],
           "tags": [
-            "whois",
-            "rdap",
-            "osint",
-            "misc"
+            "misconfig",
+            "headers",
+            "generic"
           ],
-          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
-          "reference": [
-            "https://about.rdap.org/"
-          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
           "severity": "info",
           "metadata": {
-            "max-request": 1,
-            "verified": true
-          },
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ],
-            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+            "max-request": 1
           }
         },
-        "extractor-name": "registrationDate",
+        "matcher-name": "cross-origin-opener-policy",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://rdap.nic.fr/domain/erica-delagnier.fr",
-        "extracted-results": [
-          "2021-07-14T16:58:39Z"
-        ],
-        "ip": "45.77.228.254",
-        "timestamp": "2023-10-25T14:40:39.33146335Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/erica-delagnier.fr'",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
+        "ip": "185.199.108.153",
+        "timestamp": "2023-10-25T15:01:07.476487451Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
-        "template": "http/miscellaneous/rdap-whois.yaml",
-        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
-        "template-id": "rdap-whois",
-        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
         "info": {
-          "name": "RDAP WHOIS",
+          "name": "HTTP Missing Security Headers",
           "author": [
-            "ricardomaia",
-            "sttlr"
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
           ],
           "tags": [
-            "whois",
-            "rdap",
-            "osint",
-            "misc"
+            "misconfig",
+            "headers",
+            "generic"
           ],
-          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
-          "reference": [
-            "https://about.rdap.org/"
-          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
           "severity": "info",
           "metadata": {
-            "max-request": 1,
-            "verified": true
-          },
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ],
-            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+            "max-request": 1
           }
         },
-        "extractor-name": "registrantName",
+        "matcher-name": "cross-origin-resource-policy",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://rdap.nic.fr/domain/erica-delagnier.fr",
-        "extracted-results": [
-          "Ano Nymous"
-        ],
-        "ip": "45.77.228.254",
-        "timestamp": "2023-10-25T14:40:39.331590051Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/erica-delagnier.fr'",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
+        "ip": "185.199.108.153",
+        "timestamp": "2023-10-25T15:01:07.476497751Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
-        "template": "http/miscellaneous/rdap-whois.yaml",
-        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
-        "template-id": "rdap-whois",
-        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
         "info": {
-          "name": "RDAP WHOIS",
+          "name": "HTTP Missing Security Headers",
           "author": [
-            "ricardomaia",
-            "sttlr"
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
           ],
           "tags": [
-            "whois",
-            "rdap",
-            "osint",
-            "misc"
+            "misconfig",
+            "headers",
+            "generic"
           ],
-          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "permissions-policy",
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
+        "ip": "185.199.108.153",
+        "timestamp": "2023-10-25T15:01:07.476507251Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "clear-site-data",
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
+        "ip": "185.199.108.153",
+        "timestamp": "2023-10-25T15:01:07.476533751Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/exposures/configs/package-json.yaml",
+        "template-url": "https://templates.nuclei.sh/public/package-json",
+        "template-id": "package-json",
+        "template-path": "/home/runner/nuclei-templates/http/exposures/configs/package-json.yaml",
+        "info": {
+          "name": "NPM package.json Disclosure",
+          "author": [
+            "geeknik",
+            "afaq",
+            "noraj"
+          ],
+          "tags": [
+            "config",
+            "exposure",
+            "node",
+            "npm"
+          ],
+          "description": "All NodeJS packages contain a file, usually in the project root, called package.json - this file holds various metadata relevant to the project generated by package managers such as npm, yarn, pnpm.\n",
           "reference": [
-            "https://about.rdap.org/"
+            "https://docs.npmjs.com/cli/v9/configuring-npm/package-json",
+            "https://classic.yarnpkg.com/lang/en/docs/package-json/",
+            "https://pnpm.io/package_json"
           ],
           "severity": "info",
           "metadata": {
-            "max-request": 1,
+            "max-request": 2,
             "verified": true
-          },
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ],
-            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
           }
         },
-        "extractor-name": "status",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://rdap.nic.fr/domain/erica-delagnier.fr",
-        "extracted-results": [
-          "active"
-        ],
-        "ip": "45.77.228.254",
-        "timestamp": "2023-10-25T14:40:39.332301655Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/erica-delagnier.fr'",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/package-lock.json",
+        "ip": "185.199.108.153",
+        "timestamp": "2023-10-25T15:01:10.321906331Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/package-lock.json'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/exposures/files/github-gemfile-files.yaml",
+        "template-url": "https://templates.nuclei.sh/public/github-gemfile-files",
+        "template-id": "github-gemfile-files",
+        "template-path": "/home/runner/nuclei-templates/http/exposures/files/github-gemfile-files.yaml",
+        "info": {
+          "name": "Github Gemfiles",
+          "author": [
+            "hahwul"
+          ],
+          "tags": [
+            "github",
+            "exposure",
+            "files"
+          ],
+          "description": "Find github page files(Gemfile / Gemfile.lock)",
+          "severity": "info",
+          "metadata": {
+            "max-request": 2
+          }
+        },
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/Gemfile",
+        "ip": "185.199.108.153",
+        "timestamp": "2023-10-25T15:01:11.377945034Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/Gemfile'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/exposures/files/github-gemfile-files.yaml",
+        "template-url": "https://templates.nuclei.sh/public/github-gemfile-files",
+        "template-id": "github-gemfile-files",
+        "template-path": "/home/runner/nuclei-templates/http/exposures/files/github-gemfile-files.yaml",
+        "info": {
+          "name": "Github Gemfiles",
+          "author": [
+            "hahwul"
+          ],
+          "tags": [
+            "github",
+            "exposure",
+            "files"
+          ],
+          "description": "Find github page files(Gemfile / Gemfile.lock)",
+          "severity": "info",
+          "metadata": {
+            "max-request": 2
+          }
+        },
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/Gemfile.lock",
+        "ip": "185.199.108.153",
+        "timestamp": "2023-10-25T15:01:11.422402697Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/Gemfile.lock'",
         "matcher-status": true
       },
       {
@@ -3066,14 +2940,14 @@
         },
         "extractor-name": "lastChangeDate",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://rdap.nic.fr/domain/erica-delagnier.fr",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://rdap.nic.fr/domain/agatha-budget.fr",
         "extracted-results": [
-          "2023-08-31T22:11:37.055063Z"
+          "2023-06-30T22:07:29.037901Z"
         ],
         "ip": "45.77.228.254",
-        "timestamp": "2023-10-25T14:40:39.332924559Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/erica-delagnier.fr'",
+        "timestamp": "2023-10-25T15:01:14.118168884Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/agatha-budget.fr'",
         "matcher-status": true
       },
       {
@@ -3112,153 +2986,14 @@
         },
         "extractor-name": "expirationDate",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://rdap.nic.fr/domain/erica-delagnier.fr",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://rdap.nic.fr/domain/agatha-budget.fr",
         "extracted-results": [
-          "2024-07-14T16:58:39Z"
+          "2024-05-05T17:19:48Z"
         ],
         "ip": "45.77.228.254",
-        "timestamp": "2023-10-25T14:40:39.332966559Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/erica-delagnier.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/miscellaneous/rdap-whois.yaml",
-        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
-        "template-id": "rdap-whois",
-        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
-        "info": {
-          "name": "RDAP WHOIS",
-          "author": [
-            "ricardomaia",
-            "sttlr"
-          ],
-          "tags": [
-            "whois",
-            "rdap",
-            "osint",
-            "misc"
-          ],
-          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
-          "reference": [
-            "https://about.rdap.org/"
-          ],
-          "severity": "info",
-          "metadata": {
-            "max-request": 1,
-            "verified": true
-          },
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ],
-            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
-          }
-        },
-        "extractor-name": "registrantOrg",
-        "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://rdap.nic.fr/domain/erica-delagnier.fr",
-        "extracted-results": [
-          ""
-        ],
-        "ip": "45.77.228.254",
-        "timestamp": "2023-10-25T14:40:39.333541163Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/erica-delagnier.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/miscellaneous/rdap-whois.yaml",
-        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
-        "template-id": "rdap-whois",
-        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
-        "info": {
-          "name": "RDAP WHOIS",
-          "author": [
-            "ricardomaia",
-            "sttlr"
-          ],
-          "tags": [
-            "whois",
-            "rdap",
-            "osint",
-            "misc"
-          ],
-          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
-          "reference": [
-            "https://about.rdap.org/"
-          ],
-          "severity": "info",
-          "metadata": {
-            "max-request": 1,
-            "verified": true
-          },
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ],
-            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
-          }
-        },
-        "extractor-name": "registrantCountry",
-        "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://rdap.nic.fr/domain/erica-delagnier.fr",
-        "extracted-results": [
-          ""
-        ],
-        "ip": "45.77.228.254",
-        "timestamp": "2023-10-25T14:40:39.334132867Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/erica-delagnier.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/miscellaneous/rdap-whois.yaml",
-        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
-        "template-id": "rdap-whois",
-        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
-        "info": {
-          "name": "RDAP WHOIS",
-          "author": [
-            "ricardomaia",
-            "sttlr"
-          ],
-          "tags": [
-            "whois",
-            "rdap",
-            "osint",
-            "misc"
-          ],
-          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
-          "reference": [
-            "https://about.rdap.org/"
-          ],
-          "severity": "info",
-          "metadata": {
-            "max-request": 1,
-            "verified": true
-          },
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-200"
-            ],
-            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
-          }
-        },
-        "extractor-name": "nameServers",
-        "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://rdap.nic.fr/domain/erica-delagnier.fr",
-        "extracted-results": [
-          "ns100.ovh.net",
-          "dns100.ovh.net"
-        ],
-        "ip": "45.77.228.254",
-        "timestamp": "2023-10-25T14:40:39.33465967Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/erica-delagnier.fr'",
+        "timestamp": "2023-10-25T15:01:14.118253784Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/agatha-budget.fr'",
         "matcher-status": true
       },
       {
@@ -3297,14 +3032,291 @@
         },
         "extractor-name": "secureDNS",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://rdap.nic.fr/domain/erica-delagnier.fr",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://rdap.nic.fr/domain/agatha-budget.fr",
         "extracted-results": [
           "true"
         ],
         "ip": "45.77.228.254",
-        "timestamp": "2023-10-25T14:40:39.335397075Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/erica-delagnier.fr'",
+        "timestamp": "2023-10-25T15:01:14.118270185Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/agatha-budget.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "status",
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://rdap.nic.fr/domain/agatha-budget.fr",
+        "extracted-results": [
+          "active"
+        ],
+        "ip": "45.77.228.254",
+        "timestamp": "2023-10-25T15:01:14.118282485Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/agatha-budget.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "registrationDate",
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://rdap.nic.fr/domain/agatha-budget.fr",
+        "extracted-results": [
+          "2021-05-05T17:19:48Z"
+        ],
+        "ip": "45.77.228.254",
+        "timestamp": "2023-10-25T15:01:14.118294085Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/agatha-budget.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "registrantCountry",
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://rdap.nic.fr/domain/agatha-budget.fr",
+        "extracted-results": [
+          ""
+        ],
+        "ip": "45.77.228.254",
+        "timestamp": "2023-10-25T15:01:14.118305385Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/agatha-budget.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "nameServers",
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://rdap.nic.fr/domain/agatha-budget.fr",
+        "extracted-results": [
+          "dns11.ovh.net",
+          "ns11.ovh.net"
+        ],
+        "ip": "45.77.228.254",
+        "timestamp": "2023-10-25T15:01:14.118316785Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/agatha-budget.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "registrantName",
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://rdap.nic.fr/domain/agatha-budget.fr",
+        "extracted-results": [
+          "Ano Nymous"
+        ],
+        "ip": "45.77.228.254",
+        "timestamp": "2023-10-25T15:01:14.118328285Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/agatha-budget.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/miscellaneous/rdap-whois.yaml",
+        "template-url": "https://templates.nuclei.sh/public/rdap-whois",
+        "template-id": "rdap-whois",
+        "template-path": "/home/runner/nuclei-templates/http/miscellaneous/rdap-whois.yaml",
+        "info": {
+          "name": "RDAP WHOIS",
+          "author": [
+            "ricardomaia",
+            "sttlr"
+          ],
+          "tags": [
+            "whois",
+            "rdap",
+            "osint",
+            "misc"
+          ],
+          "description": "RDAP (Registration Data Access Protocol) is a standard defined by the IETF to replace the whois protocol\nin queries for information about Internet resource records such as domain names, IP addresses, and ASNs.\n",
+          "reference": [
+            "https://about.rdap.org/"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-200"
+            ],
+            "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          }
+        },
+        "extractor-name": "registrantOrg",
+        "type": "http",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://rdap.nic.fr/domain/agatha-budget.fr",
+        "extracted-results": [
+          ""
+        ],
+        "ip": "45.77.228.254",
+        "timestamp": "2023-10-25T15:01:14.118340685Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.rdap.net/domain/agatha-budget.fr'",
         "matcher-status": true
       },
       {
@@ -3334,15 +3346,14 @@
           }
         },
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
         "extracted-results": [
-          "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js",
-          "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+          "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
         ],
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:41.255992536Z",
-        "curl-command": "curl -X 'GET' -d '' -H 'Host: erica-delagnier.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:01:17.313619076Z",
+        "curl-command": "curl -X 'GET' -d '' -H 'Host: agatha-budget.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
@@ -3378,11 +3389,11 @@
         },
         "matcher-name": "varnish",
         "type": "http",
-        "host": "https://erica-delagnier.fr/",
-        "matched-at": "https://erica-delagnier.fr/",
+        "host": "https://agatha-budget.fr/",
+        "matched-at": "https://agatha-budget.fr/",
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:40:46.220815535Z",
-        "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: erica-delagnier.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://erica-delagnier.fr/'",
+        "timestamp": "2023-10-25T15:01:21.345812583Z",
+        "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: agatha-budget.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://agatha-budget.fr/'",
         "matcher-status": true
       },
       {
@@ -3405,13 +3416,13 @@
           }
         },
         "type": "ssl",
-        "host": "erica-delagnier.fr",
-        "matched-at": "erica-delagnier.fr:443",
+        "host": "agatha-budget.fr",
+        "matched-at": "agatha-budget.fr:443",
         "extracted-results": [
           "Let's Encrypt"
         ],
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:42:01.853493388Z",
+        "timestamp": "2023-10-25T15:02:35.5553157Z",
         "matcher-status": true
       },
       {
@@ -3434,14 +3445,14 @@
           }
         },
         "type": "ssl",
-        "host": "erica-delagnier.fr",
-        "matched-at": "erica-delagnier.fr:443",
+        "host": "agatha-budget.fr",
+        "matched-at": "agatha-budget.fr:443",
         "extracted-results": [
-          "www.erica-delagnier.fr",
-          "erica-delagnier.fr"
+          "www.agatha-budget.fr",
+          "agatha-budget.fr"
         ],
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:42:01.854242083Z",
+        "timestamp": "2023-10-25T15:02:35.555507302Z",
         "matcher-status": true
       },
       {
@@ -3465,13 +3476,13 @@
           }
         },
         "type": "ssl",
-        "host": "erica-delagnier.fr",
-        "matched-at": "erica-delagnier.fr:443",
+        "host": "agatha-budget.fr",
+        "matched-at": "agatha-budget.fr:443",
         "extracted-results": [
           "tls12"
         ],
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:42:02.071637438Z",
+        "timestamp": "2023-10-25T15:02:36.603172949Z",
         "matcher-status": true
       },
       {
@@ -3495,222 +3506,57 @@
           }
         },
         "type": "ssl",
-        "host": "erica-delagnier.fr",
-        "matched-at": "erica-delagnier.fr:443",
+        "host": "agatha-budget.fr",
+        "matched-at": "agatha-budget.fr:443",
         "extracted-results": [
           "tls13"
         ],
         "ip": "185.199.108.153",
-        "timestamp": "2023-10-25T14:42:02.08413595Z",
+        "timestamp": "2023-10-25T15:02:36.641514038Z",
         "matcher-status": true
       }
     ],
-    "lhr": [
-      {
-        "requestedUrl": "https://erica-delagnier.fr/",
-        "finalUrl": "https://erica-delagnier.fr/",
-        "fetchTime": "2023-10-25T14:38:09.561Z",
-        "runWarnings": [],
-        "categories": {
-          "performance": {
-            "title": "Performance",
-            "supportedModes": [
-              "navigation",
-              "timespan",
-              "snapshot"
-            ],
-            "id": "performance",
-            "score": 0.5
-          },
-          "accessibility": {
-            "title": "Accessibility",
-            "description": "These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
-            "manualDescription": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
-            "supportedModes": [
-              "navigation",
-              "snapshot"
-            ],
-            "id": "accessibility",
-            "score": 0.77
-          },
-          "best-practices": {
-            "title": "Best Practices",
-            "supportedModes": [
-              "navigation",
-              "timespan",
-              "snapshot"
-            ],
-            "id": "best-practices",
-            "score": 0.92
-          },
-          "seo": {
-            "title": "SEO",
-            "description": "These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on [Core Web Vitals](https://web.dev/learn-web-vitals/). [Learn more](https://support.google.com/webmasters/answer/35769).",
-            "manualDescription": "Run these additional validators on your site to check additional SEO best practices.",
-            "supportedModes": [
-              "navigation",
-              "snapshot"
-            ],
-            "id": "seo",
-            "score": 0.93
-          },
-          "pwa": {
-            "title": "PWA",
-            "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
-            "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
-            "supportedModes": [
-              "navigation"
-            ],
-            "id": "pwa",
-            "score": 0.2
-          }
-        },
-        "audits": {
-          "metrics": {
-            "id": "metrics",
-            "title": "Metrics",
-            "description": "Collects all available metrics.",
-            "score": null,
-            "scoreDisplayMode": "informative",
-            "numericValue": 2612,
-            "numericUnit": "millisecond",
-            "details": {
-              "type": "debugdata",
-              "items": [
-                {
-                  "firstContentfulPaint": 1681,
-                  "firstMeaningfulPaint": 1681,
-                  "largestContentfulPaint": 12302,
-                  "interactive": 2612,
-                  "speedIndex": 1681,
-                  "totalBlockingTime": 157,
-                  "maxPotentialFID": 194,
-                  "cumulativeLayoutShift": 0,
-                  "cumulativeLayoutShiftMainFrame": 0,
-                  "totalCumulativeLayoutShift": 0,
-                  "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 441797622,
-                  "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 441797622,
-                  "observedFirstPaint": 273,
-                  "observedFirstPaintTs": 442070485,
-                  "observedFirstContentfulPaint": 273,
-                  "observedFirstContentfulPaintTs": 442070485,
-                  "observedFirstContentfulPaintAllFrames": 273,
-                  "observedFirstContentfulPaintAllFramesTs": 442070485,
-                  "observedFirstMeaningfulPaint": 273,
-                  "observedFirstMeaningfulPaintTs": 442070485,
-                  "observedLargestContentfulPaint": 273,
-                  "observedLargestContentfulPaintTs": 442070485,
-                  "observedLargestContentfulPaintAllFrames": 273,
-                  "observedLargestContentfulPaintAllFramesTs": 442070485,
-                  "observedTraceEnd": 2732,
-                  "observedTraceEndTs": 444529871,
-                  "observedLoad": 327,
-                  "observedLoadTs": 442124798,
-                  "observedDomContentLoaded": 275,
-                  "observedDomContentLoadedTs": 442072560,
-                  "observedCumulativeLayoutShift": 0,
-                  "observedCumulativeLayoutShiftMainFrame": 0,
-                  "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 268,
-                  "observedFirstVisualChangeTs": 442065622,
-                  "observedLastVisualChange": 868,
-                  "observedLastVisualChangeTs": 442665622,
-                  "observedSpeedIndex": 274,
-                  "observedSpeedIndexTs": 442071650
-                },
-                {
-                  "lcpInvalidated": false
-                }
-              ]
-            }
-          },
-          "diagnostics": {
-            "id": "diagnostics",
-            "title": "Diagnostics",
-            "description": "Collection of useful page vitals.",
-            "score": null,
-            "scoreDisplayMode": "informative",
-            "details": {
-              "type": "debugdata",
-              "items": [
-                {
-                  "numRequests": 24,
-                  "numScripts": 6,
-                  "numStylesheets": 5,
-                  "numFonts": 1,
-                  "numTasks": 272,
-                  "numTasksOver10ms": 6,
-                  "numTasksOver25ms": 3,
-                  "numTasksOver50ms": 2,
-                  "numTasksOver100ms": 0,
-                  "numTasksOver500ms": 0,
-                  "rtt": 1.7469999999999999,
-                  "throughput": 429913743.3590728,
-                  "maxRtt": 3.190999999999999,
-                  "maxServerLatency": 20.479,
-                  "totalByteWeight": 5047671,
-                  "totalTaskTime": 353.36399999999963,
-                  "mainDocumentTransferSize": 5636
-                }
-              ]
-            }
-          }
-        }
-      }
-    ],
+    "lhr": null,
     "screenshot": true,
     "stats": null,
     "github_repository": null,
     "budget_page": null,
-    "declaration-a11y": {
-      "mention": null
-    },
+    "declaration-a11y": null,
     "declaration-rgpd": null,
     "betagouv": null,
     "ecoindex": [
       {
         "width": 1920,
         "height": 1080,
-        "url": "https://erica-delagnier.fr/",
-        "size": 5144.346,
-        "nodes": 312,
-        "requests": 25,
-        "grade": "C",
-        "score": 67,
-        "ges": 1.66,
-        "water": 2.49,
+        "url": "https://agatha-budget.fr/",
+        "size": 1281.704,
+        "nodes": 230,
+        "requests": 31,
+        "grade": "B",
+        "score": 76,
+        "ges": 1.48,
+        "water": 2.22,
         "ecoindex_version": "5.4.2",
-        "date": "2023-10-25 14:35:42.970162",
-        "page_type": "website"
+        "date": "2023-10-25 14:56:59.265506",
+        "page_type": null
       }
     ],
     "sonarcloud": null,
     "summary": {
-      "404": "A+",
-      "httpGrade": "D+",
+      "404": 2,
+      "httpGrade": "D",
       "dependabotGrade": "A",
       "dependabotCount": 0,
+      "codescanCount": 0,
+      "codescanGrade": "A",
       "testsslExpireSoon": false,
-      "testsslExpireDate": "2023-12-01T15:31:00.000Z",
+      "testsslExpireDate": "2023-12-01T15:46:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "B",
-      "cookiesCount": 2,
+      "cookiesGrade": "A",
+      "cookiesCount": 0,
       "trackersGrade": "C",
-      "trackersCount": 8,
-      "lighthouse_performance": 0.5,
-      "lighthouse_performanceGrade": "D",
-      "lighthouse_accessibility": 0.77,
-      "lighthouse_accessibilityGrade": "B",
-      "lighthouse_best-practices": 0.92,
-      "lighthouse_best-practicesGrade": "A",
-      "lighthouse_seo": 0.93,
-      "lighthouse_seoGrade": "A",
-      "lighthouse_pwa": 0.2,
-      "lighthouse_pwaGrade": "E",
-      "declaration-a11y": "F",
-      "ecoindexGrade": "C"
+      "trackersCount": 10,
+      "ecoindexGrade": "B"
     }
   }
 ]
