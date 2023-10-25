@@ -4,7 +4,22 @@ entity: Agatha-Budget
 footer: Powered by SocialGouv
 marianne: false
 tools:
+  404: true
+  screenshot: true
+  nmap: true
+  zap: true
+  wappalyzer: true
+  http: true
+  testssl: true
+  lighthouse: true
+  thirdparties: true
+  nuclei: true
+  updownio: true
+  dependabot: true
+  codescan: true
+  stats: false
   declaration-a11y: true
+  ecoindex: true
 urls:
   - url: https://erica-delagnier.fr/
     title: CV Erica Delagnier
