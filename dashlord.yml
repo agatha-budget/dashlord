@@ -11,17 +11,15 @@ tools:
   wappalyzer: true
   http: true
   testssl: true
-  lighthouse: true
   thirdparties: true
   nuclei: true
   updownio: true
   dependabot: true
   codescan: true
   stats: false
-  declaration-a11y: true
   ecoindex: true
 urls:
-  - url: https://erica-delagnier.fr/
-    title: CV Erica Delagnier
+  - url: https://agatha-budget.fr/
+    title: Agatha-Budget
     repositories:
-      - ermoca/cv
+      - agatha-budget/back
