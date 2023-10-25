@@ -1,0 +1,404 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/",
+        "path": "/",
+        "href": "https://erica-delagnier.fr/"
+      },
+      "link": "https://erica-delagnier.fr/",
+      "line": "--2023-10-25 14:35:44--  https://erica-delagnier.fr/",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/robots.txt",
+        "path": "/robots.txt",
+        "href": "https://erica-delagnier.fr/robots.txt"
+      },
+      "link": "https://erica-delagnier.fr/robots.txt",
+      "line": "--2023-10-25 14:35:44--  https://erica-delagnier.fr/robots.txt",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/logo.png",
+        "path": "/assets/images/logo.png",
+        "href": "https://erica-delagnier.fr/assets/images/logo.png"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/logo.png",
+      "line": "--2023-10-25 14:35:44--  https://erica-delagnier.fr/assets/images/logo.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/css/screen.css",
+        "path": "/assets/css/screen.css",
+        "href": "https://erica-delagnier.fr/assets/css/screen.css"
+      },
+      "link": "https://erica-delagnier.fr/assets/css/screen.css",
+      "line": "--2023-10-25 14:35:44--  https://erica-delagnier.fr/assets/css/screen.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/css/main.css",
+        "path": "/assets/css/main.css",
+        "href": "https://erica-delagnier.fr/assets/css/main.css"
+      },
+      "link": "https://erica-delagnier.fr/assets/css/main.css",
+      "line": "--2023-10-25 14:35:44--  https://erica-delagnier.fr/assets/css/main.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/js/jquery.min.js",
+        "path": "/assets/js/jquery.min.js",
+        "href": "https://erica-delagnier.fr/assets/js/jquery.min.js"
+      },
+      "link": "https://erica-delagnier.fr/assets/js/jquery.min.js",
+      "line": "--2023-10-25 14:35:44--  https://erica-delagnier.fr/assets/js/jquery.min.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/cv-erica-marco.pdf",
+        "path": "/assets/cv-erica-marco.pdf",
+        "href": "https://erica-delagnier.fr/assets/cv-erica-marco.pdf"
+      },
+      "link": "https://erica-delagnier.fr/assets/cv-erica-marco.pdf",
+      "line": "--2023-10-25 14:35:44--  https://erica-delagnier.fr/assets/cv-erica-marco.pdf",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/illu.jpg",
+        "path": "/assets/images/illu.jpg",
+        "href": "https://erica-delagnier.fr/assets/images/illu.jpg"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/illu.jpg",
+      "line": "--2023-10-25 14:35:45--  https://erica-delagnier.fr/assets/images/illu.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/portrait.jpeg",
+        "path": "/assets/images/portrait.jpeg",
+        "href": "https://erica-delagnier.fr/assets/images/portrait.jpeg"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/portrait.jpeg",
+      "line": "--2023-10-25 14:35:45--  https://erica-delagnier.fr/assets/images/portrait.jpeg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/logo-agatha.png",
+        "path": "/assets/images/logo-agatha.png",
+        "href": "https://erica-delagnier.fr/assets/images/logo-agatha.png"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/logo-agatha.png",
+      "line": "--2023-10-25 14:35:45--  https://erica-delagnier.fr/assets/images/logo-agatha.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/french-audit.jpg",
+        "path": "/assets/images/french-audit.jpg",
+        "href": "https://erica-delagnier.fr/assets/images/french-audit.jpg"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/french-audit.jpg",
+      "line": "--2023-10-25 14:35:45--  https://erica-delagnier.fr/assets/images/french-audit.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/valence.jpg",
+        "path": "/assets/images/valence.jpg",
+        "href": "https://erica-delagnier.fr/assets/images/valence.jpg"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/valence.jpg",
+      "line": "--2023-10-25 14:35:45--  https://erica-delagnier.fr/assets/images/valence.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/library.jpg",
+        "path": "/assets/images/library.jpg",
+        "href": "https://erica-delagnier.fr/assets/images/library.jpg"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/library.jpg",
+      "line": "--2023-10-25 14:35:45--  https://erica-delagnier.fr/assets/images/library.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/elderly.jpg",
+        "path": "/assets/images/elderly.jpg",
+        "href": "https://erica-delagnier.fr/assets/images/elderly.jpg"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/elderly.jpg",
+      "line": "--2023-10-25 14:35:45--  https://erica-delagnier.fr/assets/images/elderly.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/software.jpg",
+        "path": "/assets/images/software.jpg",
+        "href": "https://erica-delagnier.fr/assets/images/software.jpg"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/software.jpg",
+      "line": "--2023-10-25 14:35:46--  https://erica-delagnier.fr/assets/images/software.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/book.jpg",
+        "path": "/assets/images/book.jpg",
+        "href": "https://erica-delagnier.fr/assets/images/book.jpg"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/book.jpg",
+      "line": "--2023-10-25 14:35:46--  https://erica-delagnier.fr/assets/images/book.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/babel.jpg",
+        "path": "/assets/images/babel.jpg",
+        "href": "https://erica-delagnier.fr/assets/images/babel.jpg"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/babel.jpg",
+      "line": "--2023-10-25 14:35:46--  https://erica-delagnier.fr/assets/images/babel.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/enseeiht.jpg",
+        "path": "/assets/images/enseeiht.jpg",
+        "href": "https://erica-delagnier.fr/assets/images/enseeiht.jpg"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/enseeiht.jpg",
+      "line": "--2023-10-25 14:35:46--  https://erica-delagnier.fr/assets/images/enseeiht.jpg",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/js/mediumish.js",
+        "path": "/assets/js/mediumish.js",
+        "href": "https://erica-delagnier.fr/assets/js/mediumish.js"
+      },
+      "link": "https://erica-delagnier.fr/assets/js/mediumish.js",
+      "line": "--2023-10-25 14:35:46--  https://erica-delagnier.fr/assets/js/mediumish.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/js/ie10-viewport-bug-workaround.js",
+        "path": "/assets/js/ie10-viewport-bug-workaround.js",
+        "href": "https://erica-delagnier.fr/assets/js/ie10-viewport-bug-workaround.js"
+      },
+      "link": "https://erica-delagnier.fr/assets/js/ie10-viewport-bug-workaround.js",
+      "line": "--2023-10-25 14:35:46--  https://erica-delagnier.fr/assets/js/ie10-viewport-bug-workaround.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "erica-delagnier.fr",
+        "port": null,
+        "hostname": "erica-delagnier.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/images/jumbotron.jpg",
+        "path": "/assets/images/jumbotron.jpg",
+        "href": "https://erica-delagnier.fr/assets/images/jumbotron.jpg"
+      },
+      "link": "https://erica-delagnier.fr/assets/images/jumbotron.jpg",
+      "line": "--2023-10-25 14:35:46--  https://erica-delagnier.fr/assets/images/jumbotron.jpg",
+      "broken": false
+    }
+  ],
+  "broken": []
+}

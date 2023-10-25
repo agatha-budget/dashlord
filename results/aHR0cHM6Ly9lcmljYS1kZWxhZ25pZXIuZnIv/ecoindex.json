@@ -1,0 +1,17 @@
+[
+    {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://erica-delagnier.fr/",
+        "size": 5144.346,
+        "nodes": 312,
+        "requests": 25,
+        "grade": "C",
+        "score": 67.0,
+        "ges": 1.66,
+        "water": 2.49,
+        "ecoindex_version": "5.4.2",
+        "date": "2023-10-25 14:35:42.970162",
+        "page_type": "website"
+    }
+]
