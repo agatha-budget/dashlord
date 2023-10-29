@@ -178,7 +178,7 @@
               "ip"           : "agatha-budget.fr/185.199.108.153",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'supported versions/#43' 'key share/#51' 'extended master secret/#23' 'application layer protocol negotiation/#16'"
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'key share/#51' 'supported versions/#43' 'extended master secret/#23' 'application layer protocol negotiation/#16'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -206,7 +206,7 @@
               "ip"           : "agatha-budget.fr/185.199.108.153",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -346,7 +346,7 @@
               "ip"           : "agatha-budget.fr/185.199.108.153",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "37 >= 30 days"
+              "finding"      : "33 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,21 +549,21 @@
               "ip"           : "agatha-budget.fr/185.199.108.153",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+148 seconds from localtime"
+              "finding"      : "+142 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "agatha-budget.fr/185.199.108.153",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1698245968"
+              "finding"      : "1698542277"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "agatha-budget.fr/185.199.108.153",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "148 seconds"
+              "finding"      : "142 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -626,7 +626,7 @@
               "ip"           : "agatha-budget.fr/185.199.108.153",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "cache-iad-kcgs7200168-IAD"
+              "finding"      : "cache-iad-kcgs7200038-IAD"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -641,7 +641,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "Via: 1.1 varnishX-Cache: HITX-Cache-Hits: 3"
+              "finding"      : "Via: 1.1 varnishX-Cache: HITX-Cache-Hits: 1"
           }
 ,         {
               "id"           : "heartbleed",
@@ -694,7 +694,7 @@
               "severity"     : "OK",
               "cve"          : "CVE-2011-1473",
               "cwe"          : "CWE-310",
-              "finding"      : "likely not vulnerable (timed out)"
+              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "CRIME_TLS",
@@ -1007,7 +1007,7 @@
               "ip"           : "agatha-budget.fr/185.199.108.153",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-go_1178",
@@ -1049,7 +1049,7 @@
               "ip"           : "agatha-budget.fr/185.199.108.153",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-apple_mail_16_0",
@@ -1140,6 +1140,6 @@
               "ip"           : "agatha-budget.fr/185.199.108.153",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "71"
+              "finding"      : "340"
           }
 ]

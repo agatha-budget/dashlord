@@ -90,9 +90,9 @@
     "content-encoding": "gzip",
     "content-length": "4173",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 25 Oct 2023 14:56:11 GMT",
+    "date": "Sun, 29 Oct 2023 01:14:47 GMT",
     "etag": "W/\"64a42924-47e8\"",
-    "expires": "Wed, 25 Oct 2023 15:06:11 GMT",
+    "expires": "Sun, 29 Oct 2023 01:24:47 GMT",
     "last-modified": "Tue, 04 Jul 2023 14:13:56 GMT",
     "server": "GitHub.com",
     "strict-transport-security": "max-age=31556952",
@@ -100,11 +100,11 @@
     "via": "1.1 varnish",
     "x-cache": "MISS",
     "x-cache-hits": "0",
-    "x-fastly-request-id": "b29790dc27cf62fda17d334b63730655419d3fce",
-    "x-github-request-id": "D76A:7C25:7C49EF:A73D66:65392C8A",
+    "x-fastly-request-id": "bee7300eefe01044504c5b0f1d2db8b846bfe9d5",
+    "x-github-request-id": "591C:115E:9EEFB9:E7841B:653DB206",
     "x-proxy-cache": "MISS",
     "x-served-by": "cache-iad-kcgs7200168-IAD",
-    "x-timer": "S1698245771.033342,VS0,VE6"
+    "x-timer": "S1698542088.728267,VS0,VE9"
   },
   "endpoints": [
     {
@@ -179,7 +179,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.115.95",
+      "ip": "172.253.62.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -233,7 +233,7 @@
     },
     {
       "hostname": "cdnjs.cloudflare.com",
-      "ip": "104.17.24.14",
+      "ip": "104.17.25.14",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -253,15 +253,8 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.31.94",
+      "ip": "142.251.16.94",
       "geoip": {
-        "city": {
-          "geoname_id": 4364745,
-          "names": {
-            "en": "Oxford",
-            "ru": "Оксфорд"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -291,14 +284,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
-          "latitude": 38.6828,
-          "longitude": -76.1563,
-          "metro_code": 512,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "21654"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -313,23 +302,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4361885,
-            "iso_code": "MD",
-            "names": {
-              "de": "Maryland",
-              "en": "Maryland",
-              "es": "Maryland",
-              "fr": "Maryland",
-              "ja": "メリーランド州",
-              "pt-BR": "Maryland",
-              "ru": "Мэриленд",
-              "zh-CN": "马里兰州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
