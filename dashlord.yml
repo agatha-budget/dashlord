@@ -3,6 +3,8 @@ description: Bonnes pratiques techniques
 entity: Agatha-Budget
 footer: Powered by SocialGouv
 marianne: false
+logo: https://mon.agatha-budget.fr/img/logo.0ca28574.png
+logoAltTxt: logo de multi
 tools:
   404: true
   screenshot: true
@@ -19,7 +21,7 @@ tools:
   stats: false
   ecoindex: true
 urls:
-  - url: https://agatha-budget.fr/
+  - url: https://mon.agatha-budget.fr/
     title: Agatha-Budget
     repositories:
       - agatha-budget/back
