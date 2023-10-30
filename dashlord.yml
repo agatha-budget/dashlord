@@ -1,9 +1,9 @@
-title: DashLord
+title: DashLord Multi
 description: Bonnes pratiques techniques
 entity: Agatha-Budget
 footer: Powered by SocialGouv
 marianne: false
-logo: https://mon.agatha-budget.fr/img/logo.0ca28574.png
+logo: https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/logos/logo-MULTI-colored-063442-02.png
 logoAltTxt: logo de multi
 tools:
   404: true
@@ -21,7 +21,7 @@ tools:
   stats: false
   ecoindex: true
 urls:
-  - url: https://mon.agatha-budget.fr/
-    title: Agatha-Budget
+  - url: https://www.multi.coop
+    title: Multi
     repositories:
-      - agatha-budget/back
+      - multi-coop/multi-site-app
