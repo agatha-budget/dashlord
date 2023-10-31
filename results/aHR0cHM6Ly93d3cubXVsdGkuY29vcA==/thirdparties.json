@@ -93,10 +93,6 @@
       }
     },
     {
-      "type": "unknown",
-      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=950511&h=16&m=7&s=58&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=a1d2a5d25f3eedbc&_idn=0&send_image=0&_refts=0&cookie=1&res=800x600&pv_id=xKRald&pf_net=79&pf_srv=5&pf_tfr=1&pf_dm1=365&pf_dm2=16&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D"
-    },
-    {
       "type": "jsdelivr",
       "url": "https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/fonts/materialdesignicons-webfont.woff2?v=5.8.55",
       "details": {
@@ -247,23 +243,27 @@
         "id": "github",
         "message": "Dont link GitHub ressources, host them directly"
       }
+    },
+    {
+      "type": "unknown",
+      "url": "https://multi.matomo.cloud/matomo.php?action_name=multi%20-%20www.multi.coop&idsite=3&rec=1&r=083529&h=13&m=2&s=4&url=https%3A%2F%2Fwww.multi.coop%2F%3Flocale%3Dfr&_id=65567bb9b3534cfb&_idn=0&send_image=0&_refts=0&pv_id=HWoVKT&pf_net=232&pf_srv=67&pf_tfr=3&pf_dm1=520&pf_dm2=70&pf_onl=0&uadata=%7B%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%7D&cookie=1&res=800x600"
     }
   ],
   "cookies": [],
   "headers": {
     "accept-ranges": "bytes",
     "access-control-allow-origin": "*",
-    "age": "138344",
+    "age": "0",
     "cache-control": "public,max-age=0,must-revalidate",
     "content-encoding": "br",
     "content-length": "866",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Mon, 30 Oct 2023 16:07:57 GMT",
+    "date": "Tue, 31 Oct 2023 13:02:02 GMT",
     "etag": "\"0671994594b63a058f12f9bb30d0270b-ssl-df\"",
     "server": "Netlify",
     "strict-transport-security": "max-age=31536000",
     "vary": "Accept-Encoding",
-    "x-nf-request-id": "01HE0NEZWD1AN185XHEDJZ0KT4"
+    "x-nf-request-id": "01HE2X79FZ4T34V4FBEBPG4NKT"
   },
   "endpoints": [
     {
@@ -354,18 +354,19 @@
     },
     {
       "hostname": "cdn.jsdelivr.net",
-      "ip": "151.101.41.229",
+      "ip": "151.101.201.229",
       "geoip": {
         "city": {
-          "geoname_id": 5392171,
+          "geoname_id": 5393015,
           "names": {
-            "de": "San José",
-            "en": "San Jose",
-            "es": "San José",
-            "fr": "San José",
-            "ja": "サンノゼ",
-            "pt-BR": "San José",
-            "ru": "Сан-Хосе"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -398,13 +399,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.1835,
-          "longitude": -121.7714,
+          "latitude": 37.3931,
+          "longitude": -121.962,
           "metro_code": 807,
           "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "95141"
+          "code": "95054"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -440,7 +441,7 @@
     },
     {
       "hostname": "raw.githubusercontent.com",
-      "ip": "185.199.110.133",
+      "ip": "185.199.111.133",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -510,7 +511,7 @@
     },
     {
       "hostname": "cdn.matomo.cloud",
-      "ip": "18.155.192.91",
+      "ip": "18.155.192.92",
       "geoip": {
         "continent": {
           "code": "NA",
