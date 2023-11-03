@@ -3,9 +3,6 @@ description: Notre engagement pour des communs numériques de qualité
 entity: Multi
 footer: Powered by SocialGouv
 marianne: false
-logo: https://raw.githubusercontent.com/multi-coop/multi-site-contents/main/images/logos/logo-MULTI-colored-063442-02.png
-logoAltTxt: logo de multi
-customCss: https://raw.githack.com/agatha-budget/dashlord/main/customCSS.css
 tools:
   404: true
 urls:
