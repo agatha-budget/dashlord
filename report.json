@@ -4603,7 +4603,7 @@
       "httpGrade": "D+",
       "dependabotGrade": "A",
       "dependabotCount": 0,
-      "testsslExpireSoon": false,
+      "testsslExpireSoon": true,
       "testsslExpireDate": "2024-01-05T12:20:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "A",
